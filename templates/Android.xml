@@ -1,0 +1,18 @@
+<templateSet group="Android">
+  <template name="async" value="BackgroundExecutors.getInstance().submit(new Runnable() {&#10;            @Override&#10;            public void run() {&#10;                try {&#10;                    $method_name$&#10;                } catch (Exception e) {&#10;                    Thread.getDefaultUncaughtExceptionHandler().uncaughtException(Thread.currentThread(), e);&#10;                }&#10;            }&#10;        });" description="在后台线程池执行" toReformat="true" toShortenFQNames="true">
+    <variable name="method_name" expression="" defaultValue="doInBackground" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+    </context>
+  </template>
+  <template name="asyncUI" value="mHandler.post(&#10;        new Runnable() {&#10;            @Override&#10;            public void run() {&#10;                $method_name$&#10;            }&#10;        });" description="执行在ui线程" toReformat="true" toShortenFQNames="true">
+    <variable name="method_name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
