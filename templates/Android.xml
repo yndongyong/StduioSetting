@@ -15,4 +15,8 @@
       <option name="JAVA_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="onclick" value="    @Override&#10;&#9;public void onClick(View v) {&#10;&#9;&#9;// TODO Auto-generated method stub&#10;&#9;&#9;switch (v.getId()) {&#10;&#9;&#9;&#9;case R.id.$id_for_view$:&#10;&#9;&#9;&#9;&#9; finish();&#10;&#9;&#9;&#9;&#9; break;&#10;&#9;&#9;}&#10;&#9;}&#9;" description="switch(v.id)" toReformat="false" toShortenFQNames="true">
+    <variable name="id_for_view" expression="" defaultValue="tv_title" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
