@@ -1,9 +1,0 @@
-<application>
-  <component name="ParameterNameHintsSettings">
-    <blacklists>
-      <blacklist language="Java">
-        <added pattern="com.guozinb.kidstuff.hardware.dialog.TitleAndContextDialogFragment.newInstance(title,context,cancelText,cocnfirmText,listener)" />
-      </blacklist>
-    </blacklists>
-  </component>
-</application>
