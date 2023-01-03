@@ -5,6 +5,17 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
+            <value value="aafyfe8dpvjrjzgm" />
+          </Key>
+        </key>
+        <name value="Xiaomi Redmi Note 8 Pro" />
+        <target value="Android 11.0" />
+        <api value="30" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
             <value value="00005a8c0e5a8ba0" />
           </Key>
         </key>
@@ -22,17 +33,6 @@
         <name value="Xiaomi Redmi Note 3" />
         <target value="Android 9.0" />
         <api value="28" />
-      </PhysicalDevice>
-      <PhysicalDevice>
-        <key>
-          <Key>
-            <type value="SERIAL_NUMBER" />
-            <value value="aafyfe8dpvjrjzgm" />
-          </Key>
-        </key>
-        <name value="Xiaomi Redmi Note 8 Pro" />
-        <target value="Android 11.0" />
-        <api value="30" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
