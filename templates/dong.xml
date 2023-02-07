@@ -90,4 +90,12 @@
       <option name="KOTLIN_STATEMENT" value="false" />
     </context>
   </template>
+  <template name="ifc" value="if ($condition$)...[&#10;  $END$&#10;]else...[&#10;  $END$&#10;]" description="flutter 条件添加widgets" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
