@@ -3,6 +3,7 @@
     <option name="addedPositive">
       <list>
         <option value="I/Quality: Skipped: true 1 cost 9.344521 refreshRate 0 processName com.tengyun.yyn" />
+        <option value="E/ChromeDevtoolsServer: onError: ex=java.io.IOException: Session is closed" />
       </list>
     </option>
   </component>
