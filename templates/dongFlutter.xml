@@ -1,0 +1,18 @@
+<templateSet group="dongFlutter">
+  <template name="note" value="/// Created by dong on $Date$.&#10;/// @Description: $desc$" description="文件头注释" toReformat="false" toShortenFQNames="true">
+    <variable name="Date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="http" value="onSuccess(data) {&#10;  &#10;}&#10;onFailure(code, errorMsg) {&#10;  &#10;}&#10;asyncRequest(() =&gt; TioRepositories.to.$API$, onSuccess: onSuccess, onFailure: onFailure);&#10;$END$" description="http请求模板" toReformat="false" toShortenFQNames="true">
+    <variable name="API" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+</templateSet>
