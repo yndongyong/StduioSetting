@@ -14,7 +14,7 @@
     <variable name="SNAME" expression="regularExpression(concat(&quot;_&quot;, NAME, &quot;State&quot;), &quot;^__&quot;, &quot;_&quot;)" defaultValue="" alwaysStopAt="false" />
     <context />
   </template>
-  <template name="txt" value="Text('$text$',&#10;    maxLines: 1, overflow:TextOverflow.ellipsis,&#10;    style: const TextStyle(color: Color(0xFF171A1D), fontWeight: FontWeight.normal)&#10;)," description="Create Text Widget" toReformat="true" toShortenFQNames="true">
+  <template name="txt" value="Text('$text$',&#10;    maxLines: 1, overflow:TextOverflow.ellipsis,&#10;    style: TextStyle(color: Color(0xFF2454B7), fontSize: 14, fontWeight: FontWeight.normal)&#10;)," description="Create Text Widget" toReformat="true" toShortenFQNames="true">
     <variable name="text" expression="&quot;text&quot;" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
