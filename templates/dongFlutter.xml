@@ -7,7 +7,7 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="http" value="var params = {&#10;    &quot;pageIndex&quot;: pageIndex,&#10;    &quot;pageSize&quot;: pageSize,&#10;};&#10;_onSuccessCallback(data) {&#10;    EasyLoading.dismiss();&#10;}&#10;&#10;_onFailureCallback(code, errorMsg) {&#10;    EasyLoading.showToast(errorMsg ??= &quot;&quot;);&#10;}&#10;EasyLoading.show();&#10;asyncRequest(() =&gt; TioRepositories.to.$API$(params), onSuccess: _onSuccessCallback, onFailure: _onFailureCallback);&#10;$END$" description="http请求模板" toReformat="false" toShortenFQNames="true">
+  <template name="http" value="var params = {&#10;    &quot;pageIndex&quot;: pageIndex,&#10;    &quot;pageSize&quot;: pageSize,&#10;};&#10;_onSuccessCallback(data) {&#10;    EasyLoading.dismiss();&#10;    Get.back();&#10;}&#10;&#10;_onFailureCallback(code, errorMsg) {&#10;    EasyLoading.showToast(errorMsg ??= &quot;&quot;);&#10;}&#10;EasyLoading.show();&#10;asyncRequest(() =&gt; TioRepositories.to.$API$(params), onSuccess: _onSuccessCallback, onFailure: _onFailureCallback);&#10;$END$" description="http请求模板" toReformat="false" toShortenFQNames="true">
     <variable name="API" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
