@@ -15,4 +15,19 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="fixme" value="//FIXME(dong): $desc$" description="//fixme(flutter)" toReformat="false" toShortenFQNames="true">
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="//TODO(dong): $date$ $desc$" description="//TODO(flutter)" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
 </templateSet>
