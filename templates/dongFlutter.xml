@@ -31,4 +31,10 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
+  <template name="fsbs" value="const SizedBox.shrink()$ENDP$" description="New SizedBox widget Shrik" toReformat="true" toShortenFQNames="true">
+    <variable name="ENDP" expression="" defaultValue="&quot;;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
