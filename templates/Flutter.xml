@@ -18,4 +18,8 @@
     <variable name="text" expression="&quot;text&quot;" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="frow" value="Row(&#10;  children: &lt;Widget&gt;[&#10;    $children$&#10;  ],&#10;),$END$" description="New Row widget" toReformat="true" toShortenFQNames="true">
+    <variable name="children" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
 </templateSet>
