@@ -23,7 +23,7 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="todo" value="//TODO(dong): $date$ $desc$" description="//TODO(flutter)" toReformat="false" toShortenFQNames="true">
+  <template name="todo" value="//TODO(dong): $date$ $desc$" description="//TODO(flutter)" toReformat="true" toShortenFQNames="true">
     <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
     <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
