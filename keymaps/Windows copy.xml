@@ -6,11 +6,13 @@
   <action id="Terminal.SmartCommandExecution.Run">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
-  <action id="UpdateRunningApplication" />
   <action id="android.deploy.ApplyChanges">
     <keyboard-shortcut first-keystroke="ctrl f10" />
   </action>
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="show-thief-book">
+    <keyboard-shortcut first-keystroke="ctrl alt slash" />
   </action>
 </keymap>
