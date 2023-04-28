@@ -1,6 +1,6 @@
 <templateSet group="dongFlutter">
   <template name="note" value="/// Created by dong on $Date$.&#10;/// @Description: $desc$" description="文件头注释" toReformat="false" toShortenFQNames="true">
-    <variable name="Date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="Date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
@@ -15,8 +15,8 @@
       <option name="FLUTTER" value="true" />
     </context>
   </template>
-  <template name="fixme" value="//FIXME(dong): $date$ $desc$" description="//fixme TODO flutter" toReformat="false" toShortenFQNames="true">
-    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+  <template name="fixme" value="//FIXME(dong): $date$ $desc$" description="//fixme TODO flutter" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
@@ -24,7 +24,7 @@
     </context>
   </template>
   <template name="todo" value="//TODO(dong): $date$ $desc$" description="//TODO(flutter)" toReformat="true" toShortenFQNames="true">
-    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
@@ -35,6 +35,12 @@
     <variable name="ENDP" expression="" defaultValue="&quot;;&quot;" alwaysStopAt="true" />
     <context>
       <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="imget" value="import 'package:get/get.dart';" description="Import getx package" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+      <option name="DART_TOPLEVEL" value="true" />
     </context>
   </template>
 </templateSet>
