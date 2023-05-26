@@ -9,8 +9,8 @@
           </Key>
         </key>
         <name value="Xiaomi Redmi Note 8 Pro" />
-        <target value="Android 11.0" />
-        <api value="30" />
+        <target value="Android API 32" />
+        <api value="32" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
