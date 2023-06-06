@@ -1,0 +1,15 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="favorites">
+      <list>
+        <option value="package:com.tengyun.yyn" />
+      </list>
+    </option>
+    <option name="mostRecentlyUsed" value="" />
+    <option name="nonFavorites">
+      <list>
+        <option value="is:stacktrace" />
+      </list>
+    </option>
+  </component>
+</application>
