@@ -20,7 +20,7 @@
           </Key>
         </key>
         <name value="Xiaomi Redmi Note 8 Pro" />
-        <target value="Android API 32" />
+        <target value="Android 12L" />
         <api value="androidversion:32:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
