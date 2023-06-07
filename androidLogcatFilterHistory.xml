@@ -9,6 +9,7 @@
     <option name="mostRecentlyUsed" value="tag:yyn_network " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:com.tengyun.yyn level:error " />
         <option value="is:stacktrace" />
       </list>
