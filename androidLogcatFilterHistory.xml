@@ -6,11 +6,11 @@
         <option value="package:com.tengyun.yyn" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="tag:yyn_network " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn " />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine " />
         <option value="package:com.tengyun.yyn " />
+        <option value="package:mine " />
         <option value="package:com.tengyun.yyn level:error " />
         <option value="message:YynEventSource" />
         <option value="is:stacktrace" />
