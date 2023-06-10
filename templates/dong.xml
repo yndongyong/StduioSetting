@@ -79,7 +79,7 @@
       <option name="XSL_TEXT" value="false" />
     </context>
   </template>
-  <template name="custView" value="class $class_name$ @JvmOverloads constructor(&#10;    context: Context,&#10;    attrs: AttributeSet? = null,&#10;    defStyleAttr: Int = 0,&#10;    defStyleRes: Int = 0&#10;) : View(context, attrs, defStyleAttr, defStyleRes) {&#10;}" description="CustomView @JvmOverloads" toReformat="false" toShortenFQNames="true">
+  <template name="custView" value="class $class_name$ @JvmOverloads constructor(&#10;    context: Context,&#10;    attrs: AttributeSet? = null,&#10;    defStyleAttr: Int = 0,&#10;    defStyleRes: Int = 0&#10;) : View(context, attrs, defStyleAttr, defStyleRes) {&#10;}" description="CustomView @JvmOverloads" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="class_name" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
