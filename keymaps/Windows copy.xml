@@ -1,5 +1,6 @@
 <keymap version="1" name="Windows copy" parent="$default">
   <action id="$ChooseTranslatorAction" />
+  <action id="ActivateCommitToolWindow" />
   <action id="ECTranslation2">
     <keyboard-shortcut first-keystroke="alt a" />
   </action>
