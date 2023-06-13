@@ -9,8 +9,8 @@
     <option name="mostRecentlyUsed" value="level:error " />
     <option name="nonFavorites">
       <list>
-        <option value="level:error " />
         <option value="package:com.tengyun.yyn " />
+        <option value="level:error " />
         <option value="package:com.tengyun.yyn level:error " />
         <option value="package:mine " />
         <option value="message:YynEventSource" />
