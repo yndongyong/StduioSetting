@@ -5,10 +5,10 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="00005a8c0e5a8ba0" />
+            <value value="aafyfe8dpvjrjzgm" />
           </Key>
         </key>
-        <name value="vivo V2046A" />
+        <name value="Xiaomi Redmi Note 8 Pro" />
         <target value="Android 11.0" />
         <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
@@ -16,12 +16,12 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="aafyfe8dpvjrjzgm" />
+            <value value="00005a8c0e5a8ba0" />
           </Key>
         </key>
-        <name value="Xiaomi Redmi Note 8 Pro" />
-        <target value="Android 12L" />
-        <api value="androidversion:32:null:null:true" />
+        <name value="vivo V2046A" />
+        <target value="Android 11.0" />
+        <api value="androidversion:30:null:null:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
