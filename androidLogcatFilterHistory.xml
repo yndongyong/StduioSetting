@@ -2,11 +2,11 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="favorites">
       <list>
-        <option value="tag:yyn_network " />
         <option value="package:com.tengyun.yyn" />
+        <option value="tag:yyn_network " />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn level:error " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
     <option name="nonFavorites">
       <list>
         <option value="package:com.tengyun.yyn level:error " />
