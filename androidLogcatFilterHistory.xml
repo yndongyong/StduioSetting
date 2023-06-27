@@ -6,17 +6,17 @@
         <option value="tag:yyn_network " />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn level:error " />
     <option name="nonFavorites">
       <list>
-        <option value="package:com.tengyun.yyn tag=:TyMediaPlayer" />
         <option value="package:com.tengyun.yyn level:error " />
+        <option value="package:mine " />
+        <option value="package:com.tengyun.yyn tag=:TyMediaPlayer" />
         <option value="package:com.tengyun.yyn message:push" />
         <option value="package:com.tengyun.yyn message:OtherPush" />
         <option value="package:com.tengyun.yyn message:TPush" />
         <option value="package:com.tengyun.yyn " />
         <option value="level:error " />
-        <option value="package:mine " />
         <option value="message:YynEventSource" />
         <option value="is:stacktrace" />
       </list>
