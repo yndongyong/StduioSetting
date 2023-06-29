@@ -7,12 +7,14 @@
         <option value="tag:yyn_network " />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
+    <option name="mostRecentlyUsed" value="package:mine tag=:AutoInstallService" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine tag=:AutoInstallService" />
+        <option value="package:mine tag=:&quot;AutoInstallService&quot;" />
+        <option value="package:mine " />
         <option value="package:com.tengyun.yyn tag=:TyMediaPlayer" />
         <option value="package:com.tengyun.yyn level:error " />
-        <option value="package:mine " />
         <option value="package:com.tengyun.yyn message:push" />
         <option value="package:com.tengyun.yyn message:OtherPush" />
         <option value="package:com.tengyun.yyn message:TPush" />
