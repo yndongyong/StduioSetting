@@ -1,0 +1,11 @@
+<application>
+  <component name="ConsoleFoldingSettings">
+    <option name="addedPositive">
+      <list>
+        <option value="E/ChromeDevtoolsServer: onError: ex=java.io.IOException: Session is closed" />
+        <option value="I/Quality: Skipped: true 1 cost 9.344521 refreshRate 0 processName com.tengyun.yyn" />
+        <option value="Access denied finding property &quot;ro.vendor.pref_scale_resolution&quot;" />
+      </list>
+    </option>
+  </component>
+</application>

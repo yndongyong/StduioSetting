@@ -1,0 +1,101 @@
+<templateSet group="dong">
+  <template name="note" value="/**&#10; * Created by dong on $Date$.&#10; * @Description: $desc$&#10; */" description="文件头注释" toReformat="false" toShortenFQNames="true">
+    <variable name="Date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_CONSUMER" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_COMMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="cp" value="app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;app:layout_constraintBottom_toBottomOf=&quot;parent&quot;" description="居中parent" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="cv" value="app:layout_constraintTop_toTopOf=&quot;@+id/$VIEW_ID$&quot;&#10;app:layout_constraintBottom_toBottomOf=&quot;@+id/$VIEW_ID$&quot;" description="相对view垂直居中" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="ch" value="app:layout_constraintStart_toStartOf=&quot;@+id/$VIEW_ID$&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;@+id/$VIEW_ID$&quot;" description="相对view水平居中" toReformat="false" toShortenFQNames="true">
+    <variable name="VIEW_ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="cvp" value="app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;app:layout_constraintBottom_toBottomOf=&quot;parent&quot;" description="相对parent垂直居中" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="chp" value="app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;app:layout_constraintEnd_toEndOf=&quot;parent&quot;" description="相对parent水平居中" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="tagv_stroker" value="&lt;com.tengyun.android.yynui.tag.base.TagTextView&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:layout_marginStart=&quot;@dimen/dp4&quot;&#10;    android:paddingStart=&quot;@dimen/dp4&quot;&#10;    android:paddingTop=&quot;@dimen/dp2&quot;&#10;    android:paddingEnd=&quot;@dimen/dp4&quot;&#10;    android:paddingBottom=&quot;@dimen/dp1&quot;&#10;    android:textColor=&quot;@color/common_app_main_color&quot;&#10;    android:textSize=&quot;10sp&quot;&#10;    app:cornerRadius=&quot;@dimen/dp4&quot;&#10;    app:strokeColor=&quot;@color/common_app_main_color&quot;&#10;    app:strokeWidth=&quot;@dimen/dp0.5&quot;&#10;    tools:text=&quot;中通快递&quot; /&gt;" description="TagTextView镂空描边样式" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XML_TAG" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="startAct" value="companion object {&#10;    private const val KEY_PARAMS_ID = &quot;key_params_id&quot;&#10;&#10;    private const val KEY_REQUEST_CODE_FETCH_DATA = 1&#10;&#10;    fun startActivity(content: Context, id: String) {&#10;        content.startActivity(Intent(content, $activity$::class.java).apply {&#10;            putExtra(KEY_PARAMS_ID, id)&#10;        })&#10;    }&#10;}" description="创建Activity的start方法" toReformat="false" toShortenFQNames="true">
+    <variable name="activity" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="vgone" value="android:visibility=&quot;gone&quot;&#10;tools:visibility=&quot;visible&quot;" description="view不可见预览可见" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XSL_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="tagbg" value="&lt;com.tengyun.android.yynui.tag.base.TagTextView&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;@dimen/dp110&quot;&#10;    app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;    app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;    app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;    app:backgroundColorStart=&quot;#00000000&quot;&#10;    app:backgroundColorEnd=&quot;#B3000000&quot;&#10;    app:gradientOrientation=&quot;top_bottom&quot;&#10;    /&gt;" description="TagTextView_Background" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XML_TAG" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="tagv_fill" value="&lt;com.tengyun.android.yynui.tag.base.TagTextView&#10;    android:id=&quot;@+id/tv_sub_title&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:gravity=&quot;center&quot;&#10;    android:paddingHorizontal=&quot;@dimen/dp8&quot;&#10;    android:paddingVertical=&quot;@dimen/dp4&quot;&#10;    android:textSize=&quot;@dimen/sp12&quot;&#10;    android:textStyle=&quot;normal&quot;&#10;    app:backgroundColorEnd=&quot;@color/color_03ab81&quot;&#10;    app:backgroundColorStart=&quot;@color/color_30c26d&quot;&#10;    app:cornerRadius=&quot;@dimen/dp8&quot;&#10;    app:gradientOrientation=&quot;left_right&quot;&#10;    tools:text=&quot;中通快递&quot;&#10; /&gt;" description="TagTextView填充样式" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_ATTRIBUTE" value="true" />
+      <option name="XML_TAG" value="false" />
+      <option name="XSL_TEXT" value="false" />
+    </context>
+  </template>
+  <template name="custView" value="class $class_name$ @JvmOverloads constructor(&#10;    context: Context,&#10;    attrs: AttributeSet? = null,&#10;    defStyleAttr: Int = 0,&#10;    defStyleRes: Int = 0&#10;) : View(context, attrs, defStyleAttr, defStyleRes) {&#10;}" description="CustomView @JvmOverloads" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <variable name="class_name" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="false" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="false" />
+      <option name="KOTLIN_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="ifc" value="if ($condition$)...[&#10;  $END$&#10;]else...[&#10;  $END$&#10;]" description="flutter 条件添加widgets" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+</templateSet>
