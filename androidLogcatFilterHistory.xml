@@ -7,9 +7,10 @@
         <option value="tag:yyn_network " />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:mine tag=:AutoInstallService" />
+    <option name="mostRecentlyUsed" value="package:com.fashare.activitytracker" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.fashare.activitytracker" />
         <option value="package:mine tag=:AutoInstallService" />
         <option value="package:mine tag=:&quot;AutoInstallService&quot;" />
         <option value="package:mine " />
