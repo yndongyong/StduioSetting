@@ -1,4 +1,4 @@
-<keymap version="1" name="Windows copy" parent="$default">
+<keymap version="1" name="DongWindows" parent="$default">
   <action id="$ChooseTranslatorAction" />
   <action id="ActivateCommitToolWindow" />
   <action id="Android.SyncProject">
