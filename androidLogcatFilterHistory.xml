@@ -7,9 +7,10 @@
         <option value="tag:yyn_network " />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn level:warn " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.yyn " />
         <option value="package:com.tengyun.yyn level:warn " />
         <option value="package:com.tengyun.yyn tag:yyn_network " />
         <option value="package:com.fashare.activitytracker" />
@@ -21,7 +22,6 @@
         <option value="package:com.tengyun.yyn message:push" />
         <option value="package:com.tengyun.yyn message:OtherPush" />
         <option value="package:com.tengyun.yyn message:TPush" />
-        <option value="package:com.tengyun.yyn " />
         <option value="level:error " />
         <option value="message:YynEventSource" />
         <option value="is:stacktrace" />
