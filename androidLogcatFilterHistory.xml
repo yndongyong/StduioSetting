@@ -6,7 +6,7 @@
         <option value="package:com.tengyun.yyn -tag:yyn_network -tag:DomainInterceptor" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn -tag:yyn_network -tag:DomainInterceptor" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn -tag=:yyn_network " />
     <option name="nonFavorites">
       <list>
         <option value="package:com.tengyun.yyn" />

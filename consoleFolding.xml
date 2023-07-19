@@ -2,9 +2,11 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="19:40:56.488  I  [Execution,ExecutionManager] Action pending executed for 0.01 seconds." />
+        <option value="Access denied finding property &quot;ro.vendor.pref_scale_resolution&quot;" />
         <option value="E/ChromeDevtoolsServer: onError: ex=java.io.IOException: Session is closed" />
         <option value="I/Quality: Skipped: true 1 cost 9.344521 refreshRate 0 processName com.tengyun.yyn" />
-        <option value="Access denied finding property &quot;ro.vendor.pref_scale_resolution&quot;" />
+        <option value="19:40:56.491  I  [Execution,ExecutionManager] Action pre-download-validate executed for 0.00 seconds." />
       </list>
     </option>
   </component>
