@@ -2,29 +2,18 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="favorites">
       <list>
-        <option value="package:com.tengyun.yyn -tag=:yyn_network " />
+        <option value="package:com.tengyun.yyn -tag:HttpCoroutineKt -tag:yyn_network" />
+        <option value="package:com.tengyun.yyn tag:yyn_network " />
         <option value="package:com.tengyun.yyn -tag:yyn_network -tag:DomainInterceptor" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn -tag=:yyn_network " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn tag:yyn_network " />
     <option name="nonFavorites">
       <list>
-        <option value="package:com.tengyun.yyn" />
+        <option value="package:com.tengyun.yyn -tag:HttpCoroutineKt" />
+        <option value="package:com.tengyun.yyn -tag:=HttpCoroutineKt" />
         <option value="package:mine " />
-        <option value="package:com.tengyun.yyn tag:yyn_network " />
-        <option value="package:com.tengyun.yyn " />
         <option value="package:com.tengyun.yyn level:warn " />
-        <option value="package:com.fashare.activitytracker" />
-        <option value="package:mine tag=:AutoInstallService" />
-        <option value="package:mine tag=:&quot;AutoInstallService&quot;" />
-        <option value="package:com.tengyun.yyn tag=:TyMediaPlayer" />
-        <option value="package:com.tengyun.yyn level:error " />
-        <option value="package:com.tengyun.yyn message:push" />
-        <option value="package:com.tengyun.yyn message:OtherPush" />
-        <option value="package:com.tengyun.yyn message:TPush" />
-        <option value="level:error " />
-        <option value="message:YynEventSource" />
-        <option value="is:stacktrace" />
       </list>
     </option>
   </component>
