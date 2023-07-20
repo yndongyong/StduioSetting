@@ -7,9 +7,10 @@
         <option value="package:com.tengyun.yyn -tag:yyn_network -tag:DomainInterceptor" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn -tag:HttpCoroutineKt -tag:yyn_network" />
+    <option name="mostRecentlyUsed" value="level:error " />
     <option name="nonFavorites">
       <list>
+        <option value="level:error " />
         <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.yyn -tag:HttpCoroutineKt" />
         <option value="package:com.tengyun.yyn -tag:=HttpCoroutineKt" />
