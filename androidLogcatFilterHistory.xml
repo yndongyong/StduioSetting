@@ -2,8 +2,8 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="favorites">
       <list>
-        <option value="package:com.tengyun.yyn -tag:HttpCoroutineKt -tag:yyn_network" />
         <option value="package:com.tengyun.yyn tag:yyn_network " />
+        <option value="package:com.tengyun.yyn -tag:HttpCoroutineKt -tag:yyn_network" />
         <option value="package:com.tengyun.yyn -tag:yyn_network -tag:DomainInterceptor" />
       </list>
     </option>
