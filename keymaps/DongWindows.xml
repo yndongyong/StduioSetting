@@ -17,6 +17,9 @@
   <action id="android.deploy.CodeSwap">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
   </action>
+  <action id="com.developerphil.adbidea.action.ClearDataAndRestartAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction" />
   <action id="show-thief-book">
     <keyboard-shortcut first-keystroke="ctrl alt slash" />
