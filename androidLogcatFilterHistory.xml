@@ -10,8 +10,8 @@
     <option name="mostRecentlyUsed" value="level:error " />
     <option name="nonFavorites">
       <list>
-        <option value="level:error " />
         <option value="package:com.tengyun.yyn" />
+        <option value="level:error " />
         <option value="package:com.tengyun.yyn -tag:HttpCoroutineKt" />
         <option value="package:com.tengyun.yyn -tag:=HttpCoroutineKt" />
         <option value="package:mine " />
