@@ -2,11 +2,13 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="15:36:50.093  D  [NotificationsUtils] onCheckNotification registerStatus: 1" />
         <option value="19:40:56.488  I  [Execution,ExecutionManager] Action pending executed for 0.01 seconds." />
+        <option value="19:40:56.491  I  [Execution,ExecutionManager] Action pre-download-validate executed for 0.00 seconds." />
         <option value="Access denied finding property &quot;ro.vendor.pref_scale_resolution&quot;" />
         <option value="E/ChromeDevtoolsServer: onError: ex=java.io.IOException: Session is closed" />
         <option value="I/Quality: Skipped: true 1 cost 9.344521 refreshRate 0 processName com.tengyun.yyn" />
-        <option value="19:40:56.491  I  [Execution,ExecutionManager] Action pre-download-validate executed for 0.00 seconds." />
+        <option value="15:36:50.124  I  [XGPushProvider] getType uri:content://com.tengyun.yyn.XGVIP_PUSH_AUTH/hbcyheck,match:82" />
       </list>
     </option>
   </component>
