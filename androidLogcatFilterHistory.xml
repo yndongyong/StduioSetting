@@ -7,15 +7,14 @@
         <option value="package:com.tengyun.yyn -tag:yyn_network -tag:DomainInterceptor" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:mine level:error " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine level:error " />
         <option value="package:com.tengyun.yyn" />
         <option value="level:error " />
         <option value="package:com.tengyun.yyn -tag:HttpCoroutineKt" />
         <option value="package:com.tengyun.yyn -tag:=HttpCoroutineKt" />
-        <option value="package:mine " />
         <option value="package:com.tengyun.yyn level:warn " />
       </list>
     </option>
