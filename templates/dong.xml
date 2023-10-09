@@ -90,14 +90,6 @@
       <option name="KOTLIN_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="ifc" value="if ($condition$)...[&#10;  $END$&#10;]else...[&#10;  $END$&#10;]" description="flutter 条件添加widgets" toReformat="false" toShortenFQNames="true">
-    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="DART" value="true" />
-      <option name="DART_TOPLEVEL" value="false" />
-      <option name="FLUTTER" value="true" />
-    </context>
-  </template>
   <template name="editor" value="// &lt;editor-folder desc=&quot;$DESC$”&gt;&#10;&#10;// &lt;/editor-folder&gt;" description="// &lt;editor-folder desc=&quot;属性”&gt;  代码  // &lt;/editor-folder desc=&quot;属性&quot;&gt;" toReformat="true" toShortenFQNames="true">
     <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
