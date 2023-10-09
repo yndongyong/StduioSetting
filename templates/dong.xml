@@ -43,7 +43,7 @@
       <option name="XSL_TEXT" value="true" />
     </context>
   </template>
-  <template name="tagv_stroker" value="&lt;com.tengyun.android.yynui.tag.base.TagTextView&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:layout_marginStart=&quot;@dimen/dp4&quot;&#10;    android:paddingStart=&quot;@dimen/dp4&quot;&#10;    android:paddingTop=&quot;@dimen/dp2&quot;&#10;    android:paddingEnd=&quot;@dimen/dp4&quot;&#10;    android:paddingBottom=&quot;@dimen/dp1&quot;&#10;    android:textColor=&quot;@color/common_app_main_color&quot;&#10;    android:textSize=&quot;10sp&quot;&#10;    app:cornerRadius=&quot;@dimen/dp4&quot;&#10;    app:strokeColor=&quot;@color/common_app_main_color&quot;&#10;    app:strokeWidth=&quot;@dimen/dp0.5&quot;&#10;    tools:text=&quot;中通快递&quot; /&gt;" description="TagTextView镂空描边样式" toReformat="false" toShortenFQNames="true">
+  <template name="tagv_stroker" value="&lt;com.tengyun.android.yynui.tag.base.TagTextView&#10;    android:layout_width=&quot;@dimen/dp164&quot;&#10;    android:layout_height=&quot;@dimen/dp46&quot;&#10;    android:layout_marginTop=&quot;@dimen/dp44&quot;&#10;    android:textColor=&quot;@color/common_app_main_color&quot;&#10;    android:textSize=&quot;@dimen/sp16&quot;&#10;    android:gravity=&quot;center&quot;&#10;    app:cornerRadius=&quot;@dimen/dp23&quot;&#10;    app:strokeColor=&quot;@color/common_app_main_color&quot;&#10;    app:strokeWidth=&quot;@dimen/dp1&quot;&#10;    android:text=&quot;提交&quot; /&gt;" description="TagTextView镂空描边样式" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
       <option name="XML_ATTRIBUTE" value="true" />
@@ -63,7 +63,7 @@
       <option name="XSL_TEXT" value="true" />
     </context>
   </template>
-  <template name="tagbg" value="&lt;com.tengyun.android.yynui.tag.base.TagTextView&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;@dimen/dp110&quot;&#10;    app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;    app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;    app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;    app:backgroundColorStart=&quot;#00000000&quot;&#10;    app:backgroundColorEnd=&quot;#B3000000&quot;&#10;    app:gradientOrientation=&quot;top_bottom&quot;&#10;    /&gt;" description="TagTextView_Background" toReformat="false" toShortenFQNames="true">
+  <template name="tagv_bg" value="&lt;com.tengyun.android.yynui.tag.base.TagTextView&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;@dimen/dp110&quot;&#10;    app:layout_constraintStart_toStartOf=&quot;parent&quot;&#10;    app:layout_constraintEnd_toEndOf=&quot;parent&quot;&#10;    app:layout_constraintBottom_toBottomOf=&quot;parent&quot;&#10;    app:backgroundColorStart=&quot;#00000000&quot;&#10;    app:backgroundColorEnd=&quot;#B3000000&quot;&#10;    app:gradientOrientation=&quot;top_bottom&quot;&#10;    /&gt;" description="TagTextView_Background" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="XML" value="true" />
       <option name="XML_ATTRIBUTE" value="true" />
