@@ -2,7 +2,10 @@
   <component name="ConsoleFoldingSettings">
     <option name="addedPositive">
       <list>
+        <option value="2023-10-12 14:17:10.043 VivoConfigStore       E  key:vivo.software.springeffect isCached is true and value is true" />
+        <option value="2023-10-12 14:17:10.061 VivoConfigStore       E  key:vivo.software.romstyle isCached is true and value is true" />
         <option value="getContentViewInvisibleHeight" />
+        <option value="key:vivo.software.romstyle isCached is true and value is true" />
       </list>
     </option>
   </component>
