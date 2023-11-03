@@ -1,8 +1,8 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Directory '…\app\src\main\java\com\tengyun\yyn\ai\model [TravelAndroid2.app.main]'" />
-    <option name="defaultScopeName" value="Directory '…\app\src\main\java\com\tengyun\yyn\ai\model [TravelAndroid2.app.main]'" />
-    <option name="SEARCH_SCOPE" value="Directory '…\app\src\main\java\com\tengyun\yyn\ai\model [TravelAndroid2.app.main]'" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="SEARCH_SCOPE" value="All Places" />
     <option name="FILE_MASK" value="*.kotlin" />
     <mask>*.css</mask>
     <mask>*.html</mask>
