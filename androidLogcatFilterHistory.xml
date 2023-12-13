@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine " />
+    <option name="mostRecentlyUsed" value="package:mine level:error " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine level:error " />
         <option value="package:mine " />
         <option value="package:mine tag:SA.AnalyticsMessages" />
         <option value="package:mine" />
@@ -19,7 +20,6 @@
         <option value="package:mine -tag:yyn_network -tag:TPush" />
         <option value="package:mine ~tag:yyn_network" />
         <option value="package:mine -tag:yyn_network tag:chromium" />
-        <option value="package:mine level:error " />
         <option value="package:mine level:error" />
         <option value="package:mine -tag:yyn_network " />
         <option value="package:mine tag:AssistantActivity" />
