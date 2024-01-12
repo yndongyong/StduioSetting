@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine tag:yyn_network " />
+    <option name="mostRecentlyUsed" value="tag:com.wmmhk.wmmf " />
     <option name="nonFavorites">
       <list>
+        <option value="tag:com.wmmhk.wmmf " />
         <option value="package:mine tag:yyn_network " />
         <option value="package:mine level:error " />
         <option value="package:mine" />
@@ -22,7 +23,6 @@
         <option value="package:mine  level:error " />
         <option value="package:mine -tag:yyn_network -tag:TPush" />
         <option value="package:mine ~tag:yyn_network" />
-        <option value="package:mine -tag:yyn_network tag:chromium" />
       </list>
     </option>
   </component>
