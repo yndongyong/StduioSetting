@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:GPUAUX" />
+    <option name="mostRecentlyUsed" value="package:mine -tag:GPUAUXn tag:Retrofit" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:GPUAUXn tag:Retrofit" />
         <option value="package:mine -tag:GPUAUX" />
         <option value="package:mine " />
         <option value="package:mine tag:chromium" />
@@ -22,7 +23,6 @@
         <option value="package:mine tag:yyn_network level:debug " />
         <option value="package:mine -tag:yyn_network level:error " />
         <option value="package:mine -tag:LeakCanary -tag:yyn_network level:error " />
-        <option value="package:mine -tag:LeakCanary -tag:yyn_network" />
       </list>
     </option>
   </component>
