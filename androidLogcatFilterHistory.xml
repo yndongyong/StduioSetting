@@ -1,14 +1,17 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine tag:chromium " />
+    <option name="mostRecentlyUsed" value="package:mine -tag:Retrofit" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:Retrofit" />
+        <option value="package:mine -tag:" />
+        <option value="package:mine" />
+        <option value="package:mine tag:yyn_network" />
+        <option value="package:mine tag:hws" />
         <option value="package:mine tag:chromium " />
         <option value="package:mine -tag:GPUAUXn tag:chromium " />
         <option value="package:mine " />
         <option value="p" />
-        <option value="package:mine" />
-        <option value="package:mine tag:yyn_network" />
         <option value="package:mine -tag:GPUAUXn tag:Retrofit" />
         <option value="package:mine -tag:GPUAUX" />
         <option value="package:mine tag:chromium" />
@@ -20,9 +23,6 @@
         <option value="package:mine tag:yyn_network " />
         <option value="package:mine -tag:yyn_network -tag:OKPRFL level:error " />
         <option value="package:mine -tag:yyn_network -tag:OKPRFL" />
-        <option value="package:mine -tag:yyn_network -tag:OKPRF_" />
-        <option value="package:mine -tag:yyn_network" />
-        <option value="package:mine tag:SA.AnalyticsMessages" />
       </list>
     </option>
   </component>
