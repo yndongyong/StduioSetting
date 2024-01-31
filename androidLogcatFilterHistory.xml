@@ -1,8 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:Retrofit" />
+    <option name="mostRecentlyUsed" value="package:mine -tag:Retrofit tag:hwschromium" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:Retrofit tag:hwschromium" />
+        <option value="package:mine -tag:Retrofit " />
         <option value="package:mine -tag:Retrofit" />
         <option value="package:mine -tag:" />
         <option value="package:mine" />
@@ -21,8 +23,6 @@
         <option value="level:error " />
         <option value="tag:com.wmmhk.wmmf " />
         <option value="package:mine tag:yyn_network " />
-        <option value="package:mine -tag:yyn_network -tag:OKPRFL level:error " />
-        <option value="package:mine -tag:yyn_network -tag:OKPRFL" />
       </list>
     </option>
   </component>
