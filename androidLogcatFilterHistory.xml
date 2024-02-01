@@ -1,14 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine tag:yyn_network " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine" />
         <option value="package:mine tag:yyn_network " />
         <option value="package:mine -tag:Retrofit tag:hwschromium" />
         <option value="package:mine -tag:Retrofit " />
         <option value="package:mine -tag:Retrofit" />
         <option value="package:mine -tag:" />
-        <option value="package:mine" />
         <option value="package:mine tag:yyn_network" />
         <option value="package:mine tag:hws" />
         <option value="package:mine tag:chromium " />
