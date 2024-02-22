@@ -6,6 +6,10 @@
           <option name="url" value="http://git.ybsjyyn.com" />
           <option name="userName" value="rossdong" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://e.coding.net" />
+          <option name="userName" value="rossdong@yntengyun.com" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
