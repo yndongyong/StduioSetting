@@ -1,9 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine -tag:Silent tag:flutter" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine" />
         <option value="package:mine -tag:Silent tag:flutter" />
+        <option value="package:mine" />
+        <option value="package:mine tag:Flutter" />
         <option value="package:mine -tag:chromium" />
         <option value="package:mine -tag:chromium tag:TPush" />
         <option value="package:mine -tag:Silent level:debug " />
@@ -21,7 +23,6 @@
         <option value="package:mine " />
         <option value="p" />
         <option value="package:mine -tag:GPUAUXn tag:Retrofit" />
-        <option value="package:mine -tag:GPUAUX" />
       </list>
     </option>
   </component>
