@@ -1,15 +1,14 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:chromium" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine" />
         <option value="package:mine -tag:Silent tag:flutter" />
         <option value="package:mine -tag:chromium" />
         <option value="package:mine -tag:chromium tag:TPush" />
         <option value="package:mine -tag:Silent level:debug " />
         <option value="package:mine -tag:Silent level:error " />
         <option value="package:mine -tag:Silent" />
-        <option value="package:mine" />
         <option value="package:mine tag:yyn_network " />
         <option value="package:mine -tag:Retrofit tag:hwschromium" />
         <option value="package:mine -tag:Retrofit " />
