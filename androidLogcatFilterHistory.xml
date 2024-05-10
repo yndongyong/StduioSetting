@@ -3,9 +3,9 @@
     <option name="mostRecentlyUsed" value="package:mine level:error " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine level:error " />
         <option value="package:mine" />
         <option value="package:mine " />
-        <option value="package:mine level:error " />
         <option value="package:mine tag:chromium" />
         <option value="package:mine -tag:Silent tag:flutter" />
         <option value="package:mine tag:Flutter" />
