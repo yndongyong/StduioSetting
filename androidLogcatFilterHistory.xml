@@ -1,6 +1,5 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine level:debug -tag:TPush" />
     <option name="nonFavorites">
       <list>
         <option value="package:mine" />
