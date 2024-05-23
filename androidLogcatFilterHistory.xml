@@ -4,6 +4,9 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine -tag~:Push*" />
+        <option value="package:mine -tag~:Push* -tag:yyn_network -tag:RecyclerView" />
+        <option value="package:mine -tag~:Push* -tag:yyn_network" />
+        <option value="package:mine -tag~:Push* --tag:yyn_network" />
         <option value="package:mine " />
         <option value="package:mine" />
         <option value="package:mine -tag~:*Push*" />
@@ -20,9 +23,6 @@
         <option value="package:mine -tag:chromium" />
         <option value="package:mine -tag:chromium tag:TPush" />
         <option value="package:mine -tag:Silent level:debug " />
-        <option value="package:mine -tag:Silent level:error " />
-        <option value="package:mine -tag:Silent" />
-        <option value="package:mine tag:yyn_network " />
       </list>
     </option>
   </component>
