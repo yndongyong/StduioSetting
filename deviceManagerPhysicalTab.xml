@@ -1,0 +1,28 @@
+<application>
+  <component name="deviceManagerPhysicalTab">
+    <physicalDevices>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="aafyfe8dpvjrjzgm" />
+          </Key>
+        </key>
+        <name value="Xiaomi M1906G7G" />
+        <target value="Android Tiramisu" />
+        <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="95993184450028D" />
+          </Key>
+        </key>
+        <name value="vivo V2046A" />
+        <target value="Android Tiramisu" />
+        <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+    </physicalDevices>
+  </component>
+</application>

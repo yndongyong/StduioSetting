@@ -1,0 +1,6 @@
+<application>
+  <component name="DataService">
+    <option name="modeDefault" value="false" />
+    <option name="modeEasy" value="true" />
+  </component>
+</application>

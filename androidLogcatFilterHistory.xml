@@ -1,0 +1,29 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine -tag~:Push*" />
+    <option name="nonFavorites">
+      <list>
+        <option value="package:mine -tag~:Push*" />
+        <option value="package:mine -tag~:Push* -tag:yyn_network -tag:RecyclerView" />
+        <option value="package:mine -tag~:Push* -tag:yyn_network" />
+        <option value="package:mine -tag~:Push* --tag:yyn_network" />
+        <option value="package:mine " />
+        <option value="package:mine" />
+        <option value="package:mine -tag~:*Push*" />
+        <option value="package:mine -tag:Tpush" />
+        <option value="package:mine -tag~:Tpush.*" />
+        <option value="package:mine -tag:TPush" />
+        <option value="package:mine tag:TPush*" />
+        <option value="package:mine level:debug -tag:TPush" />
+        <option value="package:mine level:debug " />
+        <option value="package:mine level:error " />
+        <option value="package:mine tag:chromium" />
+        <option value="package:mine -tag:Silent tag:flutter" />
+        <option value="package:mine tag:Flutter" />
+        <option value="package:mine -tag:chromium" />
+        <option value="package:mine -tag:chromium tag:TPush" />
+        <option value="package:mine -tag:Silent level:debug " />
+      </list>
+    </option>
+  </component>
+</application>

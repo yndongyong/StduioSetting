@@ -1,0 +1,54 @@
+<templateSet group="dongFlutter">
+  <template name="note" value="/// Created by dong on $Date$.&#10;/// @Description: $desc$" description="文件头注释" toReformat="false" toShortenFQNames="true">
+    <variable name="Date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART_TOPLEVEL" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="http" value="var params = {&#10;    &quot;pageIndex&quot;: pageIndex,&#10;    &quot;pageSize&quot;: pageSize,&#10;};&#10;_onSuccessCallback(data) {&#10;    EasyLoading.dismiss();&#10;    Get.back();&#10;}&#10;&#10;_onFailureCallback(code, errorMsg) {&#10;    EasyLoading.showToast(errorMsg ??= &quot;&quot;);&#10;}&#10;EasyLoading.show();&#10;asyncRequest(() =&gt; TioRepositories.to.$API$(params), onSuccess: _onSuccessCallback, onFailure: _onFailureCallback);&#10;$END$" description="http请求模板" toReformat="false" toShortenFQNames="true">
+    <variable name="API" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="fixme" value="//FIXME(dong): $date$ $desc$" description="//fixme TODO flutter" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="todo" value="//TODO(dong): $date$ $desc$" description="//TODO(flutter)" toReformat="true" toShortenFQNames="true">
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+  <template name="fsbs" value="const SizedBox.shrink()$ENDP$" description="New SizedBox widget Shrik" toReformat="true" toShortenFQNames="true">
+    <variable name="ENDP" expression="" defaultValue="&quot;;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="imget" value="import 'package:get/get.dart';" description="Import getx package" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="DART_STATEMENT" value="true" />
+      <option name="DART_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="ifc" value="if ($condition$)...[&#10;  $END$&#10;]else...[&#10;  $END$&#10;]" description="flutter 条件添加widgets" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+      <option name="DART_TOPLEVEL" value="false" />
+      <option name="FLUTTER" value="true" />
+    </context>
+  </template>
+</templateSet>
