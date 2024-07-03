@@ -8,8 +8,9 @@
             <value value="95993184450028D" />
           </Key>
         </key>
-        <name value="Device" />
-        <target value="Android 1.0" />
+        <name value="vivo V2046A" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:3:true" />
       </PhysicalDevice>
       <PhysicalDevice>
         <key>
