@@ -1,13 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn level:debug " />
+    <option name="mostRecentlyUsed" value="package:mine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine" />
         <option value="package:com.tengyun.yyn level:debug " />
         <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.yndongyong.architecturetemplate tag:Initializer" />
         <option value="package:com.yndongyong.architecturetemplate" />
-        <option value="package:mine" />
         <option value="package:mine tag~:Push*" />
         <option value="package:mine -tag~:Push*" />
         <option value="package:mine -tag~:Push* -tag:yyn_network -tag:RecyclerView" />
