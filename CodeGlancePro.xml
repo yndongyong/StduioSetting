@@ -1,5 +1,6 @@
 <application>
   <component name="CodeGlance Pro">
     <option name="hideOriginalScrollBar" value="true" />
+    <option name="mainWidth" value="88" />
   </component>
 </application>
