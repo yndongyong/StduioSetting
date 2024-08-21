@@ -1,8 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn level:debug " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.gov level:debug tag:chromium" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.gov level:debug tag:chromium" />
+        <option value="package:com.tengyun.gov level:debug " />
+        <option value="package:mine -tag:TPush" />
         <option value="package:com.tengyun.yyn level:debug " />
         <option value="package:mine " />
         <option value="package:com.tengyun.yyn level:error " />
@@ -19,10 +22,7 @@
         <option value="package:mine -tag~:*Push*" />
         <option value="package:mine -tag:Tpush" />
         <option value="package:mine -tag~:Tpush.*" />
-        <option value="package:mine -tag:TPush" />
         <option value="package:mine tag:TPush*" />
-        <option value="package:mine level:debug -tag:TPush" />
-        <option value="package:mine level:debug " />
       </list>
     </option>
   </component>
