@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.gov " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.gov tag:webview " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.gov tag:webview " />
         <option value="package:com.tengyun.gov " />
         <option value="package:mine -tag:TPush tag:chromium" />
         <option value="package:com.tengyun.yyn level:debug 385" />
@@ -22,7 +23,6 @@
         <option value="package:mine -tag~:Push* -tag:yyn_network -tag:RecyclerView" />
         <option value="package:mine -tag~:Push* -tag:yyn_network" />
         <option value="package:mine -tag~:Push* --tag:yyn_network" />
-        <option value="package:mine -tag~:*Push*" />
       </list>
     </option>
   </component>
