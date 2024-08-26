@@ -1,10 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn level:error " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
     <option name="nonFavorites">
       <list>
-        <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.yyn" />
+        <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.yyn level:debug" />
         <option value="package:com.tengyun.gov " />
         <option value="package:com.tengyun.gov tag:webview " />
