@@ -1,15 +1,16 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.gov tag:yyn_network " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.gov tag=:chromium " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.gov tag=:chromium " />
+        <option value="package:com.tengyun.gov " />
         <option value="package:com.tengyun.gov tag:yyn_network " />
         <option value="package:com.tengyun.gov" />
         <option value="package:com.tengyun.gov tag:chromium" />
         <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.yyn level:debug" />
-        <option value="package:com.tengyun.gov " />
         <option value="package:com.tengyun.gov tag:webview " />
         <option value="package:mine -tag:TPush tag:chromium" />
         <option value="package:com.tengyun.yyn level:debug 385" />
@@ -22,7 +23,6 @@
         <option value="package:com.yndongyong.architecturetemplate tag:Initializer" />
         <option value="package:com.yndongyong.architecturetemplate" />
         <option value="package:mine" />
-        <option value="package:mine tag~:Push*" />
       </list>
     </option>
   </component>
