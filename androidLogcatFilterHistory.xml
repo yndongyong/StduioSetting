@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine" />
         <option value="package:mine " />
         <option value="package:com.tengyun.gov" />
         <option value="package:com.tengyun.gov tag=:chromium " />
@@ -21,7 +23,6 @@
         <option value="package:mine level:error " />
         <option value="package:com.yndongyong.architecturetemplate tag:Initializer" />
         <option value="package:com.yndongyong.architecturetemplate" />
-        <option value="package:mine" />
       </list>
     </option>
   </component>
