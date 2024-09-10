@@ -1,13 +1,14 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine level:error " />
+    <option name="mostRecentlyUsed" value="package:mine tag=:QCloudHttp" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine tag=:QCloudHttp" />
+        <option value="package:mine " />
         <option value="package:mine level:error " />
         <option value="package:mine" />
         <option value="package:mine level:error" />
         <option value="package:mine level:error tag=:CosManager" />
-        <option value="package:mine " />
         <option value="level:error " />
         <option value="package:com.tengyun.gov" />
         <option value="package:com.tengyun.gov tag=:chromium " />
@@ -22,7 +23,6 @@
         <option value="package:com.tengyun.yyn level:debug 385" />
         <option value="package:com.tengyun.gov level:debug tag:chromium" />
         <option value="package:com.tengyun.gov level:debug " />
-        <option value="package:mine -tag:TPush" />
       </list>
     </option>
   </component>
