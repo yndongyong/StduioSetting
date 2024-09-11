@@ -4,11 +4,11 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine level:error " />
+        <option value="package:mine" />
         <option value="package:mine " />
         <option value="package:mine  tag=:QCloudHttp " />
         <option value="package:mine  -tag=:QCloudHttp " />
         <option value="package:mine tag=:QCloudHttp" />
-        <option value="package:mine" />
         <option value="package:mine level:error" />
         <option value="package:mine level:error tag=:CosManager" />
         <option value="level:error " />
