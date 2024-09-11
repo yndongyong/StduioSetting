@@ -33,6 +33,17 @@
         <name value="Device" />
         <target value="Android 1.0" />
       </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="2KE0219B07030769" />
+          </Key>
+        </key>
+        <name value="HUAWEI LIO-AN00" />
+        <target value="Android 12.0" />
+        <api value="androidversion:31:null:1:true" />
+      </PhysicalDevice>
     </physicalDevices>
   </component>
 </application>
