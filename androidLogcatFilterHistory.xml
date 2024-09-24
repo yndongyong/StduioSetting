@@ -1,0 +1,28 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="nonFavorites">
+      <list>
+        <option value="package:com.yndongyong.guider" />
+        <option value="package:mine " />
+        <option value="package:mine -tag=:yyn_network level:error " />
+        <option value="package:mine -tag=:yyn_network " />
+        <option value="package:mine -tag=:yyn_network tag=:QCloudHttp" />
+        <option value="package:mine -tag=:yyn_network tag=:QCloudHttp " />
+        <option value="package:mine -tag=:yyn_network" />
+        <option value="package:mine" />
+        <option value="package:mine tag=:QCloudHttp" />
+        <option value="package:mine tag=:Q" />
+        <option value="package:mine level:error " />
+        <option value="package:mine  tag=:QCloudHttp " />
+        <option value="package:mine  -tag=:QCloudHttp " />
+        <option value="package:mine level:error" />
+        <option value="package:mine level:error tag=:CosManager" />
+        <option value="level:error " />
+        <option value="package:com.tengyun.gov" />
+        <option value="package:com.tengyun.gov tag=:chromium " />
+        <option value="package:com.tengyun.gov " />
+        <option value="package:com.tengyun.gov tag:yyn_network " />
+      </list>
+    </option>
+  </component>
+</application>

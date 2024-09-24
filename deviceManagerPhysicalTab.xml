@@ -1,0 +1,50 @@
+<application>
+  <component name="deviceManagerPhysicalTab">
+    <physicalDevices>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="95993184450028D" />
+          </Key>
+        </key>
+        <name value="vivo V2046A" />
+        <target value="Android 13.0" />
+        <api value="androidversion:33:null:3:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="aafyfe8dpvjrjzgm" />
+          </Key>
+        </key>
+        <name value="Xiaomi M1906G7G" />
+        <target value="Android Tiramisu" />
+        <api value="androidversion:33:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="d14b9b43" />
+          </Key>
+        </key>
+        <name value="Xiaomi 23127PN0CC" />
+        <target value="Android API 35" />
+        <api value="androidversion:35:null:13:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="2KE0219B07030769" />
+          </Key>
+        </key>
+        <name value="HUAWEI LIO-AN00" />
+        <target value="Android 12.0" />
+        <api value="androidversion:31:null:1:true" />
+      </PhysicalDevice>
+    </physicalDevices>
+  </component>
+</application>
