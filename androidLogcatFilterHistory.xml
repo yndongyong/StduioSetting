@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine tag:TPUSH " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine tag:TPUSH " />
         <option value="package:com.yndongyong.guider" />
         <option value="package:mine " />
         <option value="package:mine -tag=:yyn_network level:error " />
@@ -21,7 +23,6 @@
         <option value="package:com.tengyun.gov" />
         <option value="package:com.tengyun.gov tag=:chromium " />
         <option value="package:com.tengyun.gov " />
-        <option value="package:com.tengyun.gov tag:yyn_network " />
       </list>
     </option>
   </component>
