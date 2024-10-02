@@ -1,14 +1,15 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:HaLogProvider" />
+    <option name="mostRecentlyUsed" value="package:mine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine" />
+        <option value="package:com.tengyun.gov" />
+        <option value="package:mine  level:error  -tag:KING_CARD" />
         <option value="package:mine -tag:HaLogProvider" />
         <option value="package:mine -tag:HaLogProvider level:error " />
-        <option value="package:mine  level:error  -tag:KING_CARD" />
         <option value="package:mine  level:error " />
         <option value="package:mine -tag:HaLogProvider｜Da" />
-        <option value="package:mine" />
         <option value="package:mine level:error " />
         <option value="package:mine tag:TPush " />
         <option value="package:mine tag:TPUSH " />
@@ -22,7 +23,6 @@
         <option value="package:mine -tag=:yyn_network" />
         <option value="package:mine tag=:QCloudHttp" />
         <option value="package:mine tag=:Q" />
-        <option value="package:mine  tag=:QCloudHttp " />
       </list>
     </option>
   </component>
