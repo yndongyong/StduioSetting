@@ -30,5 +30,16 @@
         </option>
       </ChangeUserSettingParams>
     </option>
+    <option name="recentQueries">
+      <map>
+        <entry key="TravelIntlAndroid|1015117532034774">
+          <value>
+            <list>
+              <option value="./gradlew clean --scan&#10;&#10;FAILURE: Build failed with an exception.&#10;&#10;* What went wrong:&#10;A problem occurred configuring project ':app'.&#10;&gt; java.lang.NullPointerException (no error message)" />
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </application>
