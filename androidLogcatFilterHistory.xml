@@ -1,9 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.intl.yyn" />
+        <option value="package:com.tengyun.intl.yyn tag:chromium " />
         <option value="package:com.tengyun.intl.yyn " />
+        <option value="package:com.tengyun.intl.yyn tag:chromium" />
+        <option value="package:com.tengyun.intl.yyn -tag:SA.SensorsDataUtils" />
         <option value="package:com.tengyun.yyn tag:yyn_network " />
         <option value="package:mine tag:chromium" />
         <option value="package:mine" />
@@ -19,10 +23,6 @@
         <option value="package:com.tengyun.gov tag:TPush " />
         <option value="package:com.yndongyong.guider" />
         <option value="package:mine " />
-        <option value="package:mine -tag=:yyn_network level:error " />
-        <option value="package:mine -tag=:yyn_network " />
-        <option value="package:mine -tag=:yyn_network tag=:QCloudHttp" />
-        <option value="package:mine -tag=:yyn_network tag=:QCloudHttp " />
       </list>
     </option>
   </component>
