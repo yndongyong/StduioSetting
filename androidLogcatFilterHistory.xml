@@ -4,8 +4,11 @@
     <option name="nonFavorites">
       <list>
         <option value="package:com.tengyun.intl.yyn" />
-        <option value="package:com.tengyun.intl.yyn tag:chromium " />
+        <option value="package:com.tengyun.intl.yyn level:error " />
+        <option value="package:com.tengyun.intl.yyn -tag:SA.AnalyticsMessages -tag:SA.SensorsDataAPI" />
+        <option value="package:com.tengyun.intl.yyn -tag:SA.AnalyticsMessages" />
         <option value="package:com.tengyun.intl.yyn " />
+        <option value="package:com.tengyun.intl.yyn tag:chromium " />
         <option value="package:com.tengyun.intl.yyn tag:chromium" />
         <option value="package:com.tengyun.intl.yyn -tag:SA.SensorsDataUtils" />
         <option value="package:com.tengyun.yyn tag:yyn_network " />
@@ -20,9 +23,6 @@
         <option value="package:mine level:error " />
         <option value="package:mine tag:TPush " />
         <option value="package:mine tag:TPUSH " />
-        <option value="package:com.tengyun.gov tag:TPush " />
-        <option value="package:com.yndongyong.guider" />
-        <option value="package:mine " />
       </list>
     </option>
   </component>
