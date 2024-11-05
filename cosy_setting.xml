@@ -36,6 +36,7 @@
           <value>
             <list>
               <option value="./gradlew clean --scan&#10;&#10;FAILURE: Build failed with an exception.&#10;&#10;* What went wrong:&#10;A problem occurred configuring project ':app'.&#10;&gt; java.lang.NullPointerException (no error message)" />
+              <option value="implementation 'com.facebook.fresco:fresco:2.6.0', {&#10;        exclude group: 'com.facebook.soloader', module: 'soloader'&#10;    }" />
             </list>
           </value>
         </entry>
