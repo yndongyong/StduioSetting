@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.intl.yyn " />
         <option value="package:com.tengyun.yyn tag:yyn_network " />
         <option value="package:mine tag:chromium" />
         <option value="package:mine" />
@@ -22,7 +23,6 @@
         <option value="package:mine -tag=:yyn_network " />
         <option value="package:mine -tag=:yyn_network tag=:QCloudHttp" />
         <option value="package:mine -tag=:yyn_network tag=:QCloudHttp " />
-        <option value="package:mine -tag=:yyn_network" />
       </list>
     </option>
   </component>
