@@ -37,6 +37,8 @@
             <list>
               <option value="./gradlew clean --scan&#10;&#10;FAILURE: Build failed with an exception.&#10;&#10;* What went wrong:&#10;A problem occurred configuring project ':app'.&#10;&gt; java.lang.NullPointerException (no error message)" />
               <option value="implementation 'com.facebook.fresco:fresco:2.6.0', {&#10;        exclude group: 'com.facebook.soloader', module: 'soloader'&#10;    }" />
+              <option value="[INFO:CONSOLE(7)] &quot;Mixed Content: The page at 'https://yyn.ybsjyyn.com/travel_line/dist/index.html#/detail?screen=full&amp;id=3b972e99-2251-42f1-5edf-266980081824' was loaded over HTTPS, but requested an insecure image 'http://tmch-jpxl-1254950508.file.myqcloud.com/A57E85D3-1077-6F27-1886.jpg'. This content should also be served over HTTPS.&quot;, source: https://yyn.ybsjyyn.com/travel_line/dist/js/chunk-vendors.d4da57e6.js (7)" />
+              <option value="android webview Mixed Content" />
             </list>
           </value>
         </entry>
