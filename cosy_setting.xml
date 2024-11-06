@@ -40,6 +40,8 @@
             <list>
               <option value="java.io.IOException: Cleartext HTTP traffic to sdk.beizi.biz not permitted" />
               <option value="fresco 增加日志" />
+              <option value="Cleartext HTTP traffic to manager-1254950508.cosgz.myqcloud.com not permitted" />
+              <option value="android:usesCleartextTraffic=true" />
             </list>
           </value>
         </entry>
