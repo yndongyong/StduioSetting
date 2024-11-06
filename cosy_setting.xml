@@ -2,6 +2,7 @@
   <component name="CosySettings">
     <option name="dedicatedDomainUrl" value="" />
     <option name="localStoragePath" value="$USER_HOME$/.lingma" />
+    <option name="manualOpenLocalModel" value="true" />
     <option name="parameter">
       <ChangeUserSettingParams>
         <option name="allowReportUsage" value="true" />
@@ -34,6 +35,13 @@
     </option>
     <option name="recentQueries">
       <map>
+        <entry key="TravelAndroid|1015117532034774">
+          <value>
+            <list>
+              <option value="java.io.IOException: Cleartext HTTP traffic to sdk.beizi.biz not permitted" />
+            </list>
+          </value>
+        </entry>
         <entry key="TravelIntlAndroid|1015117532034774">
           <value>
             <list>
