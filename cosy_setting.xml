@@ -39,6 +39,7 @@
           <value>
             <list>
               <option value="java.io.IOException: Cleartext HTTP traffic to sdk.beizi.biz not permitted" />
+              <option value="fresco 增加日志" />
             </list>
           </value>
         </entry>
