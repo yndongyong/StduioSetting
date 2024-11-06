@@ -1,8 +1,8 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:yyn_network" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:mine -tag:yyn_network" />
         <option value="package:com.tengyun.intl.yyn" />
         <option value="package:com.tengyun.intl.yyn level:error " />
@@ -22,7 +22,6 @@
         <option value="package:mine  level:error " />
         <option value="package:mine -tag:HaLogProvider｜Da" />
         <option value="package:mine level:error " />
-        <option value="package:mine tag:TPush " />
       </list>
     </option>
   </component>
