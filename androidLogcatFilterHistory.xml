@@ -1,8 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn level:error " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn tag:SoLoader " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.intl.yyn tag:SoLoader " />
+        <option value="package:com.tengyun.intl.yyn level:debug tag:SoLoader" />
+        <option value="package:com.tengyun.intl.yyn level:debug " />
+        <option value="package:com.tengyun.intl.yyn" />
         <option value="package:com.tengyun.intl.yyn level:error " />
         <option value="package:mine  tag:yyn_network " />
         <option value="level:error " />
@@ -15,14 +19,10 @@
         <option value="package:mine -tag:SA.SensorsDataAPI" />
         <option value="package:mine " />
         <option value="package:mine -tag:yyn_network" />
-        <option value="package:com.tengyun.intl.yyn" />
         <option value="package:com.tengyun.intl.yyn -tag:SA.AnalyticsMessages -tag:SA.SensorsDataAPI" />
         <option value="package:com.tengyun.intl.yyn -tag:SA.AnalyticsMessages" />
         <option value="package:com.tengyun.intl.yyn " />
         <option value="package:com.tengyun.intl.yyn tag:chromium " />
-        <option value="package:com.tengyun.intl.yyn tag:chromium" />
-        <option value="package:com.tengyun.intl.yyn -tag:SA.SensorsDataUtils" />
-        <option value="package:com.tengyun.yyn tag:yyn_network " />
       </list>
     </option>
   </component>
