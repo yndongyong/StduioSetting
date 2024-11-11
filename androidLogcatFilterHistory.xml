@@ -1,14 +1,14 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="level:error " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn level:error " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.intl.yyn level:error " />
         <option value="level:error " />
         <option value="package:com.tengyun.intl.yyn" />
         <option value="package:com.tengyun.intl.yyn tag:SoLoader " />
         <option value="package:com.tengyun.intl.yyn level:debug tag:SoLoader" />
         <option value="package:com.tengyun.intl.yyn level:debug " />
-        <option value="package:com.tengyun.intl.yyn level:error " />
         <option value="package:mine  tag:yyn_network " />
         <option value="package:com.tengyun.intl.yyn -tag:SA.SensorsDataAPI -tag:SA.AnalyticsMessages tag:data_report" />
         <option value="package:com.tengyun.yyn tag:yyn_network" />
