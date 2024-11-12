@@ -43,6 +43,7 @@
               <option value="Cleartext HTTP traffic to manager-1254950508.cosgz.myqcloud.com not permitted" />
               <option value="android:usesCleartextTraffic=true" />
               <option value="android:networkSecurityConfig" />
+              <option value="kotlin 的?: 可以多个连续使用么 liveEntity.value?.name ?: liveEntity.value?.title ?: &quot;&quot;" />
             </list>
           </value>
         </entry>
