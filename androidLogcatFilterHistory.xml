@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.gov  " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn  " />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.yyn  " />
         <option value="package:com.tengyun.gov  " />
         <option value="package:mine " />
         <option value="package:mine level:error " />
@@ -22,7 +23,6 @@
         <option value="package:mine -tag:SA.SensorsDataAPI" />
         <option value="package:mine -tag:yyn_network" />
         <option value="package:com.tengyun.intl.yyn -tag:SA.AnalyticsMessages -tag:SA.SensorsDataAPI" />
-        <option value="package:com.tengyun.intl.yyn -tag:SA.AnalyticsMessages" />
       </list>
     </option>
   </component>
