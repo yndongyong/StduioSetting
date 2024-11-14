@@ -44,6 +44,7 @@
               <option value="android:usesCleartextTraffic=true" />
               <option value="android:networkSecurityConfig" />
               <option value="kotlin 的?: 可以多个连续使用么 liveEntity.value?.name ?: liveEntity.value?.title ?: &quot;&quot;" />
+              <option value="/explain code" />
             </list>
           </value>
         </entry>
