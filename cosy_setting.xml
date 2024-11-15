@@ -43,6 +43,8 @@
               <option value="获取?之前的字符串" />
               <option value="要兼容不含有？的 rul" />
               <option value="srcUri.scheme" />
+              <option value="/generate optimization" />
+              <option value="dartEntrypoint的 使用两个入参分别获取，其实可以合并一下" />
             </list>
           </value>
         </entry>
