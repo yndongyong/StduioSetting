@@ -35,6 +35,17 @@
     </option>
     <option name="recentQueries">
       <map>
+        <entry key="Gov-Android|1015117532034774">
+          <value>
+            <list>
+              <option value="val srcUri = Uri.parse(scheme)&#10;                val queryParams = srcUri.query" />
+              <option value="val srcUri =Uri.parse(yyngov://complaint?path=complaint_inbox_list&amp;status=xxxx)&#10;srcUri.host &#10;srcUri.path分别是" />
+              <option value="获取?之前的字符串" />
+              <option value="要兼容不含有？的 rul" />
+              <option value="srcUri.scheme" />
+            </list>
+          </value>
+        </entry>
         <entry key="TravelAndroid|1015117532034774">
           <value>
             <list>
