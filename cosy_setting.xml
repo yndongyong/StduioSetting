@@ -63,6 +63,7 @@
               <option value="android:networkSecurityConfig" />
               <option value="kotlin 的?: 可以多个连续使用么 liveEntity.value?.name ?: liveEntity.value?.title ?: &quot;&quot;" />
               <option value="/explain code" />
+              <option value="结果是无序的，保证 colletct 的顺序和pathList中的顺序yizhi" />
             </list>
           </value>
         </entry>
