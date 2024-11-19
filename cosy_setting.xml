@@ -64,6 +64,13 @@
               <option value="kotlin 的?: 可以多个连续使用么 liveEntity.value?.name ?: liveEntity.value?.title ?: &quot;&quot;" />
               <option value="/explain code" />
               <option value="结果是无序的，保证 colletct 的顺序和pathList中的顺序yizhi" />
+              <option value="flowOf{}  和 flow{emit()} 的区别" />
+              <option value="flow { emit(fileUpload(item)) } 可以被替换成 flowOf(fileUpload(item)) 么，有什么区别" />
+              <option value="flow 执行排序" />
+              <option value="kotlin list 排序" />
+              <option value="让 resultList 和 pathList，有相同的顺讯 val pathList = arrayListOf&lt;FileInfo&gt;(&#10;                    FileInfo(&quot;a&quot;,2330),&#10;                    FileInfo(&quot;b&quot;,2391),&#10;                    FileInfo(&quot;c&quot;,2102),&#10;                    FileInfo(&quot;d&quot;,2958),&#10;                    FileInfo(&quot;e&quot;,2130),)" />
+              <option value="val pathList = arrayListOf&lt;FileInfo&gt;(&#10;                    FileInfo(&quot;a&quot;,2330),&#10;                    FileInfo(&quot;b&quot;,2391),&#10;                    FileInfo(&quot;c&quot;,2102),&#10;                    FileInfo(&quot;d&quot;,2958),&#10;                    FileInfo(&quot;e&quot;,2130),)" />
+              <option value="将 resultList 安装 pathList 中的顺序排序&#10;resultList = c finished ,cost time:2102&#10;a finished ,cost time:2330&#10;b finished ,cost time:2391&#10;d finished ,cost time:2958&#10;e finished ,cost time:2130" />
             </list>
           </value>
         </entry>
