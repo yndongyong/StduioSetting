@@ -1,7 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
+    <option name="mostRecentlyUsed" value="package:mine -tag:Doraemon" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine -tag:Doraemon" />
         <option value="package:mine " />
         <option value="level:error " />
         <option value="package:com.tengyun.gov" />
@@ -21,7 +23,6 @@
         <option value="package:mine level:error " />
         <option value="package:com.tengyun.intl.yyn level:error " />
         <option value="package:com.tengyun.intl.yyn" />
-        <option value="package:com.tengyun.intl.yyn tag:SoLoader " />
       </list>
     </option>
   </component>
