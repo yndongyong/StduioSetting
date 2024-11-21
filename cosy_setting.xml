@@ -50,6 +50,9 @@
               <option value="Android 将 &quot;yyyy-MM-dd HH:mm:ss&quot; 转换为时间戳" />
               <option value="timestamp的结果是多少" />
               <option value="字节：7438745 是多少 m" />
+              <option value="解释val count by counterViewModel.count" />
+              <option value="val count by counterViewModel.count&#10;class CounterViewModel : ViewModel() {&#10;    // 内部状态&#10;    private val _count = mutableStateOf(0)&#10;    // 对外公开的不可变状态&#10;    val count: State&lt;Int&gt; get() = _count&#10;​&#10;    // 增加计数的方法&#10;    fun increment() {&#10;        _count.value++&#10;    }&#10;}" />
+              <option value="详细介绍kotlin属性委托语法" />
             </list>
           </value>
         </entry>
