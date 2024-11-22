@@ -61,6 +61,7 @@
             <list>
               <option value="kill gradle 命令" />
               <option value="Android Gradle dependencyResolutionManagement 中添加私库地址和密码" />
+              <option value="android gradle plugin 的版本和 kotlin 的版本是强相关的么" />
             </list>
           </value>
         </entry>
