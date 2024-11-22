@@ -60,6 +60,7 @@
           <value>
             <list>
               <option value="kill gradle 命令" />
+              <option value="Android Gradle dependencyResolutionManagement 中添加私库地址和密码" />
             </list>
           </value>
         </entry>
