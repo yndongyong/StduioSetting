@@ -29,5 +29,6 @@
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
     <pattern pattern="\boptimize\b.*" />
+    <pattern pattern="\bnotice\b.*" />
   </component>
 </application>

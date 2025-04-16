@@ -1,28 +1,28 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine -tag:Doraemon -tag:yyn_network -tag~:OKPRFL_" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.yyn" />
+        <option value="package:com.tengyun.yyn level:error " />
+        <option value="package:com.tengyun.gov tag:PhotoManager" />
+        <option value="package:com.tengyun.gov TAG:PhotoManager" />
+        <option value="package:com.tengyun.intl.yyn -tag:MapLib2" />
+        <option value="package:cn.idesign.cui tag:MainActivity" />
+        <option value="package:com.tengyun.gov tag~:Push" />
+        <option value="package:com.tengyun.gov" />
+        <option value="package:com.tengyun.yyn tag~:Push" />
+        <option value="package:com.tengyun.yyn tag~:P" />
+        <option value="package:mine" />
+        <option value="package:mine " />
+        <option value="package:mine tag:TranslationFragment$startAsrManager " />
+        <option value="package:mine level:error " />
         <option value="package:mine -tag:Doraemon -tag:yyn_network -tag~:OKPRFL_" />
         <option value="package:mine -tag:Doraemon -tag:yyn_network" />
         <option value="package:mine -tag:Doraemon" />
-        <option value="package:mine " />
         <option value="level:error " />
-        <option value="package:com.tengyun.gov" />
-        <option value="package:mine" />
         <option value="package:com.tengyun.gov -tag:TPush" />
-        <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.yyn  -tag:yyn_network" />
-        <option value="package:com.tengyun.yyn  tag:yyn_network" />
-        <option value="package:com.tengyun.yyn  -tag:yyn_network -tag:TPush" />
-        <option value="package:com.tengyun.intl.yyn -tag:SA.SensorsDataAPI -tag:SA.AnalyticsMessages" />
-        <option value="package:com.tengyun.intl.yyn -tag:SA.SensorsDataAPI tag:SA.AnalyticsMessages" />
-        <option value="package:com.tengyun.intl.yyn -tag:SA.SensorsDataAPI" />
-        <option value="level:debug  package:mine " />
-        <option value="level:error package:mine " />
-        <option value="package:com.tengyun.yyn  " />
-        <option value="package:com.tengyun.gov  " />
-        <option value="package:mine level:error " />
       </list>
     </option>
   </component>
