@@ -1,20 +1,115 @@
 <templateSet group="dongCompose">
   <template name="box" value="androidx.compose.foundation.layout.Box {&#10;    $END$&#10;}" description="Create box" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="KOTLIN" value="true" />
-      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
   <template name="col" value="androidx.compose.foundation.layout.Column {&#10;    $END$&#10;}" description="Create Column" toReformat="true" toShortenFQNames="true">
     <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="row" value="androidx.compose.foundation.layout.Row {&#10;    $END$&#10;}" description="Create Row" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="boxsel" value="androidx.compose.foundation.layout.Box $END$ {&#10;    $SELECTION$ &#10;}" description="Use Box Wrap Select content" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="colsel" value="androidx.compose.foundation.layout.Column $END$ {&#10;    $SELECTION$&#10;}" description="Use Column Wrap Select content" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ecsel" value="androidx.compose.material3.ElevatedCard $END$ {&#10;    $SELECTION$&#10;}" description="Use ElevatedCard Wrap Select content" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rowsel" value="androidx.compose.foundation.layout.Row $END$ {&#10;    $SELECTION$&#10;}" description="Use Row Wrap Select content" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="txt" value="androidx.compose.material3.Text(text = &quot;$TEXT$&quot;)" description="Create Text" toReformat="true" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="Modi" value="modifier = androidx.compose.ui.Modifier.$END$" description="生成 modifier = Modifier" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sbh" value="horizontalArrangement = androidx.compose.foundation.layout.Arrangement.spacedBy($DP$)" description="SpacedBy for horizontal" toReformat="true" toShortenFQNames="true">
+    <variable name="DP" expression="" defaultValue="8.dp" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sbv" value="verticalArrangement =  androidx.compose.foundation.layout.Arrangement.spacedBy($DP$)" description="SpacedBy for vertical" toReformat="true" toShortenFQNames="true">
+    <variable name="DP" expression="" defaultValue="8.dp" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="modi" value="modifier = modifier" description="生成 modifier = modifier 快速填充参数" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="remu" value="remember { mutableStateOf($PARAM$) }" description="remember mutableStateOf" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="compre" value="@androidx.compose.runtime.Composable&#10;fun $NAME$(modifier: androidx.compose.ui.Modifier = androidx.compose.ui.Modifier) {&#10;    $END$&#10;}&#10;&#10;@androidx.compose.ui.tooling.preview.Preview(showBackground = true)&#10;@androidx.compose.runtime.Composable&#10;private fun Preview$NAME$() {$NAME$(modifier = androidx.compose.ui.Modifier)}" description="Create @Composable and Preview" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
       <option name="KOTLIN" value="true" />
       <option name="KOTLIN_COMMENT" value="false" />
     </context>
   </template>
-  <template name="row" value="androidx.compose.foundation.layout.Column {&#10;    $END$&#10;}" description="Create Row" toReformat="true" toShortenFQNames="true">
+  <template name="compre filename" value="@androidx.compose.runtime.Composable&#10;fun $FILENAME$(modifier: androidx.compose.ui.Modifier = androidx.compose.ui.Modifier) { &#10;    $END$&#10;}&#10;&#10;@androidx.compose.ui.tooling.preview.Preview(showBackground = true)&#10;@androidx.compose.runtime.Composable&#10;private fun Preview2$FILENAME$() {  &#10;    $FILENAME$(modifier = androidx.compose.ui.Modifier)&#10;}&#10;&#10;@androidx.compose.ui.tooling.preview.Preview(showBackground = true)&#10;@androidx.compose.runtime.Composable&#10;private fun Preview$NAME$() {&#10;    $NAME$(modifier = androidx.compose.ui.Modifier)&#10;}&#10;" description="Create @Composable and Preview with filename" toReformat="true" toShortenFQNames="true">
+    <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="KOTLIN" value="true" />
       <option name="KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="screen" value="@androidx.compose.runtime.Composable &#10;fun $NAME$Screen(modifier: androidx.compose.ui.Modifier = androidx.compose.ui.Modifier, viewModel: $NAME$ViewModel = androidx.lifecycle.viewmodel.compose.viewModel()) {&#10;   $NAME$ScreenContent(modifier, viewModel) &#10;}  &#10;@androidx.compose.runtime.Composable &#10;fun $NAME$ScreenContent(modifier: androidx.compose.ui.Modifier = androidx.compose.ui.Modifier,   viewModel: $NAME$ViewModelFunc ){    &#10;    $END$    &#10;    //region Dialogs    &#10;    &#10;    //endregion &#10;}  &#10;&#10;@androidx.compose.ui.tooling.preview.Preview(showBackground = true)&#10;@androidx.compose.runtime.Composable &#10;private fun Preview$NAME$Screen() {   &#10; $NAME$ScreenContent(     viewModel = object : $NAME$ViewModelFunc {     },  modifier = androidx.compose.ui.Modifier   ) &#10; } " description="Create @Composable screen" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
 </templateSet>
