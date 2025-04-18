@@ -1,4 +1,4 @@
-<templateSet group="dong">
+<templateSet group="dongView">
   <template name="note" value="/**&#10; * Created by dong on $Date$.&#10; * @Description: $desc$&#10; */" description="文件头注释" toReformat="false" toShortenFQNames="true">
     <variable name="Date" expression="date()" defaultValue="" alwaysStopAt="false" />
     <variable name="desc" expression="" defaultValue="" alwaysStopAt="true" />

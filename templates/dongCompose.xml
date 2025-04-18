@@ -1,0 +1,20 @@
+<templateSet group="dongCompose">
+  <template name="box" value="androidx.compose.foundation.layout.Box {&#10;    $END$&#10;}" description="Create box" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="col" value="androidx.compose.foundation.layout.Column {&#10;    $END$&#10;}" description="Create Column" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+  <template name="row" value="androidx.compose.foundation.layout.Column {&#10;    $END$&#10;}" description="Create Row" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_COMMENT" value="false" />
+    </context>
+  </template>
+</templateSet>
