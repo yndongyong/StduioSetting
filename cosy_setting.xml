@@ -635,6 +635,144 @@
                   <list />
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="分析Android15 上的权限请求异常" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/app/src/main/java/com/tengyun/yyn/feature/web/YynWebViewFragment.kt" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/app/src/main/java/com/tengyun/yyn/feature/web/YynWebViewFragment.kt" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="YynWebViewFragment.kt" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="异常信息&#10;Event:APP_SCOUT_WARNING Thread:main backtrace:&#10;                                                     at java.util.WeakHashMap.&lt;init&gt;(WeakHashMap.java:218)&#10;                                                     at java.util.WeakHashMap.&lt;init&gt;(WeakHashMap.java:240)&#10;                                                     at androidx.arch.core.internal.SafeIterableMap.&lt;init&gt;(SafeIterableMap.java:42)&#10;                                                     at androidx.savedstate.SavedStateRegistry.&lt;init&gt;(SavedStateRegistry.kt:34)&#10;                                                     at androidx.savedstate.SavedStateRegistryController.&lt;init&gt;(SavedStateRegistryController.kt:33)&#10;                                                     at androidx.savedstate.SavedStateRegistryController.&lt;init&gt;(Unknown Source:0)&#10;                                                     at androidx.savedstate.SavedStateRegistryController$Companion.create(SavedStateRegistryController.kt:92)&#10;                                                     at androidx.savedstate.SavedStateRegistryController.create(Unknown Source:2)&#10;                                                     at androidx.fragment.app.Fragment.initLifecycle(Fragment.java:569)&#10;                                                     at androidx.fragment.app.Fragment.&lt;init&gt;(Fragment.java:537)&#10;                                                     at com.tengyun.yyn.feature.permissions.PermissionsFragment.&lt;init&gt;(PermissionsFragment.kt:16)&#10;                                                     at com.tengyun.yyn.feature.permissions.PermissionsFragment.&lt;init&gt;(PermissionsFragment.kt:22)&#10;                                                     at com.tengyun.yyn.feature.permissions.APermissions.&lt;init&gt;(APermissions.kt:30)&#10;                                                     at com.tengyun.yyn.feature.permissions.YYNPermissions.&lt;init&gt;(YYNPermissions.kt:61)&#10;                                                     at com.tengyun.yyn.feature.permissions.YYNPermissions$Builder.build(YYNPermissions.kt:137)&#10;                                                     at com.tengyun.yyn.feature.web.YynWebViewFragment.requestPermission(YynWebViewFragment.kt:1418)&#10;                                                     at com.tengyun.yyn.feature.web.YynWebViewFragment.access$requestPermission(YynWebViewFragment.kt:94)&#10;                                                     at com.tengyun.yyn.feature.web.YynWebViewFragment$JsBridge.locationInfo$lambda$15(YynWebViewFragment.kt:1549)&#10;                                                     at com.tengyun.yyn.feature.web.YynWebViewFragment$JsBridge.$r8$lambda$CkUyL4JJf2KC9tTvlTH2WFORulM(Unknown Source:0)&#10;                                                     at com.tengyun.yyn.feature.web.YynWebViewFragment$JsBridge$$ExternalSyntheticLambda8.run(Unknown Source:4)&#10;                                                     at com.badoo.mobile.util.WeakHandler$WeakRunnable.run(WeakHandler.java:444)&#10;                                                     at android.os.Handler.handleCallback(Handler.java:959)&#10;                                                     at android.os.Handler.dispatchMessage(Handler.java:100)&#10;                                                     at android.os.Looper.loopOnce(Looper.java:249)&#10;                                                     at android.os.Looper.loop(Looper.java:337)&#10;                                                     at android.app.ActivityThread.main(ActivityThread.java:9272)&#10;                                                     at java.lang.reflect.Method.invoke(Native Method)&#10;                                                     at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:593)&#10;                                                     at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:932)&#10;2025-04-18 13:40:03.700 com.tengyun.yyn       I  Thread[2,tid=32063,WaitingInMainSignalCatcherLoop,Thread*=0xb400006f7cc0e3&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/app/src/main/java/com/tengyun/yyn/feature/web/YynWebViewFragment.kt" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/app/src/main/java/com/tengyun/yyn/feature/web/YynWebViewFragment.kt" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="YynWebViewFragment.kt" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
