@@ -230,6 +230,10 @@
           <option name="groupName" value="Mermaid Hidden" />
           <option name="key" value="mermaid_block" />
         </TemplateKey>
+        <TemplateKey>
+          <option name="groupName" value="AndroidKotlin" />
+          <option name="key" value="starter" />
+        </TemplateKey>
       </list>
     </option>
   </component>

@@ -1,0 +1,44 @@
+<templateSet group="dongKotlin">
+  <template name="startAct" value="@JvmStatic fun startActivity(context: android.content.Context) {&#10;    val starter = Intent(context, $ACTIVITY$::class.java)&#10;        .putExtra($CURSOR$)&#10;    context.startActivity(starter)&#10;}" description="Creates a static start(...) helper method to start an Activity" toReformat="true" toShortenFQNames="true">
+    <variable name="ACTIVITY" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="invoke" value="suspend operator fun invoke()" description="Create suspend operator fun invoke()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="timx" value="timber.log.Timber.tag(&quot;DONG&quot;).e(&quot;$METHOD_NAME$: $content$&quot;)" description="Timber xxx" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timxe" value="timber.log.Timber.tag(&quot;DONG&quot;).e(e,&quot;$METHOD_NAME$: $content$&quot;)" description="Timber xxx Exception" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="timxt" value="timber.log.Timber.tag(&quot;DONG&quot;).e(t,&quot;$METHOD_NAME$: $content$&quot;)" description="Timber xxx EThrowable" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="logx" value="android.util.Log.e(&quot;DONG&quot;,&quot;$METHOD_NAME$: $content$&quot;)" description="Log.e(tag, String)" toReformat="true" toShortenFQNames="true">
+    <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
