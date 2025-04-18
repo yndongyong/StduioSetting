@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn tag:chromium" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.yyn tag:chromium" />
         <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.gov tag:PhotoManager" />
@@ -22,7 +23,6 @@
         <option value="package:mine -tag:Doraemon" />
         <option value="level:error " />
         <option value="package:com.tengyun.gov -tag:TPush" />
-        <option value="package:com.tengyun.yyn  -tag:yyn_network" />
       </list>
     </option>
   </component>
