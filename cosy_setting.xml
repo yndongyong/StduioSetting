@@ -1117,19 +1117,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="目前仅支持单选，拓展实现多选" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="kotlin中的 list，clear 和 addAll，有合二为一的方法么" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -2333,6 +2320,89 @@
                         <Object />
                       </option>
                       <option name="sourceType" value="system" />
+                      <option name="text" value="Calendar.kt" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="日历组件可以控制一周开始于哪一天weekStart，比如开始于周一（1），或者周日（7），检查下面的代码&#10;private fun findDateOffset(firstDayOfWeek: Int, weekStart: Int): Int {&#10;    return ((if (firstDayOfWeek &lt; weekStart) (firstDayOfWeek + ItemsInEachRow) else firstDayOfWeek) - weekStart)&#10;}&#10;&#10;private fun calculateRows(daysOfMonth: Int, dayOffset: Int): Int {&#10;    val dividend: Int = (dayOffset + daysOfMonth) / ItemsInEachRow&#10;    val remainder: Int = (dayOffset + daysOfMonth) % ItemsInEachRow&#10;    return (dividend + (if (remainder &gt; 0) 1 else 0))&#10;}" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="389" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/dong_workspace/VanUI/core/ui/src/main/java/com/yndongyong/vanui/calendar/Calendar.kt#L381-L389" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/dong_workspace/VanUI/core/ui/src/main/java/com/yndongyong/vanui/calendar/Calendar.kt#L381-L389" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="statLine" value="381" />
                       <option name="text" value="Calendar.kt" />
                       <option name="type" value="currentFile" />
                     </ChatContextTag>
