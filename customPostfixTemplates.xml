@@ -199,9 +199,13 @@
                   <option name="file" value="${PLUGIN}/kotlin/yfr.mockito.postfixTemplates" />
                 </VFile>
                 <VFile>
-                  <option name="enabled" value="true" />
                   <option name="url" value="https://wavky.top/files/android_stuido.plugin.custom_postfix_temp/Compose.postfixTemplates" />
                   <option name="file" value="${PLUGIN}/kotlin/dongcompose.postfixTemplates" />
+                </VFile>
+                <VFile>
+                  <option name="enabled" value="true" />
+                  <option name="url" value="file:$USER_HOME$/Documents/workspace/dong_workspace/dongKotlinCommon.postfixTemplates" />
+                  <option name="file" value="${PLUGIN}/kotlin/dongKotlinCommon.postfixTemplates" />
                 </VFile>
               </list>
             </value>

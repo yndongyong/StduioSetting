@@ -17,28 +17,28 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="boxWrapper" value="androidx.compose.foundation.layout.Box $END$ {&#10;    $SELECTION$ &#10;}" description="Use Box Wrap Select content" toReformat="true" toShortenFQNames="true">
+  <template name="boxWrapper" value="androidx.compose.foundation.layout.Box(modifier = androidx.compose.ui.Modifier.$END$)  {&#10;    $SELECTION$ &#10;}" description="Use Box Wrap Select content" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_EXPRESSION" value="true" />
       <option name="KOTLIN_STATEMENT" value="true" />
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
-  <template name="colWrapper" value="androidx.compose.foundation.layout.Column $END$ {&#10;    $SELECTION$&#10;}" description="Use Column Wrap Select content" toReformat="true" toShortenFQNames="true">
+  <template name="colWrapper" value="androidx.compose.foundation.layout.Column(modifier =  androidx.compose.ui.Modifier.$END$) {&#10;    $SELECTION$&#10;}" description="Use Column Wrap Select content" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_CLASS" value="true" />
       <option name="KOTLIN_EXPRESSION" value="true" />
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="ecWrapper" value="androidx.compose.material3.ElevatedCard $END$ {&#10;    $SELECTION$&#10;}" description="Use ElevatedCard Wrap Select content" toReformat="true" toShortenFQNames="true">
+  <template name="ecWrapper" value="androidx.compose.material3.ElevatedCard(modifier = androidx.compose.ui.Modifier.$END$) {&#10;    $SELECTION$&#10;}" description="Use ElevatedCard Wrap Select content" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_CLASS" value="true" />
       <option name="KOTLIN_EXPRESSION" value="true" />
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="rowWapper" value="androidx.compose.foundation.layout.Row $END$ {&#10;    $SELECTION$&#10;}" description="Use Row Wrap Select content" toReformat="true" toShortenFQNames="true">
+  <template name="rowWapper" value="androidx.compose.foundation.layout.Row(modifier: androidx.compose.ui.Modifier = androidx.compose.ui.Modifier.$END$) {&#10;    $SELECTION$&#10;}" description="Use Row Wrap Select content" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="KOTLIN_CLASS" value="true" />
       <option name="KOTLIN_EXPRESSION" value="true" />
