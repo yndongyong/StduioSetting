@@ -112,4 +112,10 @@
       <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
+  <template name="layout" value="androidx.compose.ui.layout.Layout(content = { /*TODO*/ }, measurePolicy = { measurables, constraints -&gt;&#10;        // MEASUREMENT SCOPE&#10;        // 1. Measurement step &#10;        // Determine sizes fo components&#10;        // ready to measured!&#10;&#10;        val placeables = measurables.map { it.measure(constraints) }&#10;        layout(500, 0) {&#10;            //     PLACEMENT SCOPE&#10;            //     Placement step&#10;            //     Determine positions of components&#10;            val xPosition = 0&#10;            val yPosition = 0&#10;&#10;            // Ready to be placed!&#10;            placeables.forEach {&#10;                it.place(xPosition, yPosition)&#10;            }&#10;        }&#10;&#10;    })" description="Create Layout" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_EXPRESSION" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
