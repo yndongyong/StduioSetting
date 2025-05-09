@@ -1,5 +1,93 @@
 <application>
   <component name="StudioBotSettings">
     <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1746760776437">优化的地方么</historyEntry>
+        <historyEntry timestamp="1746760742581">使用中文回答</historyEntry>
+        <historyEntry timestamp="1746760664962">分析下面的代码
+@Composable
+fun VanTips(
+    visible: Boolean,
+    onDismissRequest: () -&gt; Unit,
+    statusFlow: StateFlow&lt;TipsStatus&gt;,
+    duration: Duration = 15000.milliseconds,
+    doneIcon: ImageVector? = Icons.Default.Done,
+    errorIcon: ImageVector? = Icons.Default.ErrorOutline,
+    infoIcon: ImageVector? = Icons.Filled.Info,
+    loading: @Composable (() -&gt; Unit)? = null,
+) {
+
+    val scope = rememberCoroutineScope()
+    var job by remember { mutableStateOf&lt;Job?&gt;(null) }
+
+    DisposableEffect(visible, duration) {
+        if (visible &amp;&amp; duration != Duration.INFINITE) {
+            job = scope.launch {
+                delay(duration)
+                onDismissRequest()
+            }
+        }
+        onDispose {
+            if (job?.isActive == true) {
+                onDismissRequest()
+            }
+        }
+
+    }
+
+    VanModal(
+        visible = visible,
+        maskOverlay = false,
+        onDismissRequest = onDismissRequest,
+        dismissOnBackPress = false,
+        dismissOnClickOutside = false
+    ) {
+        val status by statusFlow.collectAsStateWithLifecycle()
+        Box(
+            modifier = Modifier
+                .widthIn(min = 120.dp, max = 300.dp)
+                .heightIn(min = 120.dp)
+                .clip(RoundedCornerShape(8.dp))
+                .background(VanUIColors.van_black.copy(alpha = 0.7f))
+                .padding(horizontal = 8.dp, vertical = 8.dp), contentAlignment = Alignment.Center
+        ) {
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center
+            ) {
+                val contentColor = MaterialTheme.colorScheme.surface
+                when (status) {
+                    is TipsStatus.Done -&gt; Icon(
+                        doneIcon!!, contentDescription = null, tint = contentColor, modifier = Modifier.size(36.dp)
+                    )
+
+                    is TipsStatus.Error -&gt; Icon(
+                        errorIcon!!,
+                        contentDescription = null,
+                        tint = contentColor,
+                        modifier = Modifier.size(36.dp)
+                    )
+
+                    is TipsStatus.Loading -&gt; {
+                        loading?.invoke()
+                    }
+
+                    is TipsStatus.Info -&gt; Icon(
+                        infoIcon!!, contentDescription = null, tint = contentColor, modifier = Modifier.size(36.dp)
+                    )
+                }
+                Text(
+                    status.message,
+                    modifier = Modifier.padding(top = 8.dp),
+                    style = MaterialTheme.typography.bodyMedium.copy(color = contentColor),
+                    textAlign = TextAlign.Center
+                )
+
+            }
+        }
+    }
+}</historyEntry>
+      </list>
+    </option>
   </component>
 </application>
