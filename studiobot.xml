@@ -3,6 +3,13 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1746770851323">解释 statusFlow.collectAsStateWithLifecycle()</historyEntry>
+        <historyEntry timestamp="1746770445863">statusFlow第二次收到同样的数据是在 tip关闭的时候</historyEntry>
+        <historyEntry timestamp="1746770257800">这个是使用的方式
+var showModal by remember { mutableStateOf(false) }
+        val statusFlow = MutableStateFlow&lt;TipsStatus&gt;(TipsStatus.Info(&quot;提示内容&quot;))
+VanTips(visible = showModal, onDismissRequest = { showModal = false }, statusFlow = statusFlow)</historyEntry>
+        <historyEntry timestamp="1746770172994">检查下面的代码，statusFlow会收到两次数据</historyEntry>
         <historyEntry timestamp="1746760776437">优化的地方么</historyEntry>
         <historyEntry timestamp="1746760742581">使用中文回答</historyEntry>
         <historyEntry timestamp="1746760664962">分析下面的代码
