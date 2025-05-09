@@ -3,6 +3,8 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1746779844576">使用 Modifier.clickable { focusRequester.requestFocus() } 获取焦点，弹出的dialog中的textfield绑定了focusRequester，弹出弹框时，报错了Are you attempting to request focus during composition? Focus requests should be made in
+                                                    response to some event. Eg Modifier.clickable { focusRequester.requestFocus() }</historyEntry>
         <historyEntry timestamp="1746773063215">可以使用statusFlow.emit()方法么</historyEntry>
         <historyEntry timestamp="1746772845512">statusFlow.update{} 方法和通过value复制有什么区别</historyEntry>
         <historyEntry timestamp="1746772720610">如何更新statusFlow的值
