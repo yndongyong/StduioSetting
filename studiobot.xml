@@ -3,6 +3,12 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1746773063215">可以使用statusFlow.emit()方法么</historyEntry>
+        <historyEntry timestamp="1746772845512">statusFlow.update{} 方法和通过value复制有什么区别</historyEntry>
+        <historyEntry timestamp="1746772720610">如何更新statusFlow的值
+val statusFlow = remember {
+            MutableStateFlow&lt;TipsStatus&gt;(TipsStatus.Info(&quot;提示内容&quot;))
+        }</historyEntry>
         <historyEntry timestamp="1746770851323">解释 statusFlow.collectAsStateWithLifecycle()</historyEntry>
         <historyEntry timestamp="1746770445863">statusFlow第二次收到同样的数据是在 tip关闭的时候</historyEntry>
         <historyEntry timestamp="1746770257800">这个是使用的方式
