@@ -3,6 +3,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1747117343424">参照TabRowScope修改VanSidebar组件</historyEntry>
         <historyEntry timestamp="1747116700273">阅读下面的代码，以为使用了key值，所以每次切换之后，所有的item都重新绘制了，如何做到值重新绘制得到选中的和失去选中的
 @Composable
 fun VanSidebar(
