@@ -3,101 +3,54 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1746779844576">使用 Modifier.clickable { focusRequester.requestFocus() } 获取焦点，弹出的dialog中的textfield绑定了focusRequester，弹出弹框时，报错了Are you attempting to request focus during composition? Focus requests should be made in
-                                                    response to some event. Eg Modifier.clickable { focusRequester.requestFocus() }</historyEntry>
-        <historyEntry timestamp="1746773063215">可以使用statusFlow.emit()方法么</historyEntry>
-        <historyEntry timestamp="1746772845512">statusFlow.update{} 方法和通过value复制有什么区别</historyEntry>
-        <historyEntry timestamp="1746772720610">如何更新statusFlow的值
-val statusFlow = remember {
-            MutableStateFlow&lt;TipsStatus&gt;(TipsStatus.Info(&quot;提示内容&quot;))
-        }</historyEntry>
-        <historyEntry timestamp="1746770851323">解释 statusFlow.collectAsStateWithLifecycle()</historyEntry>
-        <historyEntry timestamp="1746770445863">statusFlow第二次收到同样的数据是在 tip关闭的时候</historyEntry>
-        <historyEntry timestamp="1746770257800">这个是使用的方式
-var showModal by remember { mutableStateOf(false) }
-        val statusFlow = MutableStateFlow&lt;TipsStatus&gt;(TipsStatus.Info(&quot;提示内容&quot;))
-VanTips(visible = showModal, onDismissRequest = { showModal = false }, statusFlow = statusFlow)</historyEntry>
-        <historyEntry timestamp="1746770172994">检查下面的代码，statusFlow会收到两次数据</historyEntry>
-        <historyEntry timestamp="1746760776437">优化的地方么</historyEntry>
-        <historyEntry timestamp="1746760742581">使用中文回答</historyEntry>
-        <historyEntry timestamp="1746760664962">分析下面的代码
+        <historyEntry timestamp="1747116700273">阅读下面的代码，以为使用了key值，所以每次切换之后，所有的item都重新绘制了，如何做到值重新绘制得到选中的和失去选中的
 @Composable
-fun VanTips(
-    visible: Boolean,
-    onDismissRequest: () -&gt; Unit,
-    statusFlow: StateFlow&lt;TipsStatus&gt;,
-    duration: Duration = 15000.milliseconds,
-    doneIcon: ImageVector? = Icons.Default.Done,
-    errorIcon: ImageVector? = Icons.Default.ErrorOutline,
-    infoIcon: ImageVector? = Icons.Filled.Info,
-    loading: @Composable (() -&gt; Unit)? = null,
+fun VanSidebar(
+    selectedIndex: Int,
+    onChange: (Int) -&gt; Unit,
+    modifier: Modifier = Modifier,
+    content: @Composable VanSidebarScope.() -&gt; Unit
 ) {
-
-    val scope = rememberCoroutineScope()
-    var job by remember { mutableStateOf&lt;Job?&gt;(null) }
-
-    DisposableEffect(visible, duration) {
-        if (visible &amp;&amp; duration != Duration.INFINITE) {
-            job = scope.launch {
-                delay(duration)
-                onDismissRequest()
-            }
-        }
-        onDispose {
-            if (job?.isActive == true) {
-                onDismissRequest()
-            }
-        }
-
+    Column(modifier = modifier.background(Color.White)) {
+        val scope = VanSidebarScopeImpl(selectedIndex, onChange)
+        scope.content()
     }
+}
 
-    VanModal(
-        visible = visible,
-        maskOverlay = false,
-        onDismissRequest = onDismissRequest,
-        dismissOnBackPress = false,
-        dismissOnClickOutside = false
-    ) {
-        val status by statusFlow.collectAsStateWithLifecycle()
-        Box(
-            modifier = Modifier
-                .widthIn(min = 120.dp, max = 300.dp)
-                .heightIn(min = 120.dp)
-                .clip(RoundedCornerShape(8.dp))
-                .background(VanUIColors.van_black.copy(alpha = 0.7f))
-                .padding(horizontal = 8.dp, vertical = 8.dp), contentAlignment = Alignment.Center
-        ) {
-            Column(
-                horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.Center
+interface VanSidebarScope {
+    @Composable
+    fun VanSideBarItem(title: String)
+}
+
+private class VanSidebarScopeImpl(
+    private val selectedIndex: Int,
+    private val onSelect: (Int) -&gt; Unit,
+) : VanSidebarScope {
+
+    private var index = 0
+    @Composable
+    override fun VanSideBarItem(title: String) {
+        val currentIndex = index++
+        key(currentIndex+selectedIndex) {
+            Log.e(&quot;DONG&quot;, &quot;🚀 ~ VanSideBarItem ~ recomposition currentIndex+selectedIndex: ${currentIndex+selectedIndex}&quot;)
+            val isSelected = selectedIndex == currentIndex
+
+            val backgroundColor by animateColorAsState(
+                if (isSelected) Color.LightGray else Color.Transparent,
+                label = &quot;SidebarItemBg&quot;
+            )
+
+            Box(
+                modifier = Modifier
+                    .width(90.dp)
+                    .clickable { onSelect(currentIndex) }
+                    .background(backgroundColor)
+                    .padding(16.dp)
             ) {
-                val contentColor = MaterialTheme.colorScheme.surface
-                when (status) {
-                    is TipsStatus.Done -&gt; Icon(
-                        doneIcon!!, contentDescription = null, tint = contentColor, modifier = Modifier.size(36.dp)
-                    )
-
-                    is TipsStatus.Error -&gt; Icon(
-                        errorIcon!!,
-                        contentDescription = null,
-                        tint = contentColor,
-                        modifier = Modifier.size(36.dp)
-                    )
-
-                    is TipsStatus.Loading -&gt; {
-                        loading?.invoke()
-                    }
-
-                    is TipsStatus.Info -&gt; Icon(
-                        infoIcon!!, contentDescription = null, tint = contentColor, modifier = Modifier.size(36.dp)
-                    )
-                }
                 Text(
-                    status.message,
-                    modifier = Modifier.padding(top = 8.dp),
-                    style = MaterialTheme.typography.bodyMedium.copy(color = contentColor),
-                    textAlign = TextAlign.Center
+                    text = title,
+                    color = if (isSelected) Color.Blue else Color.Black
                 )
-
             }
         }
     }
