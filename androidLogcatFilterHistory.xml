@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine" />
+    <option name="mostRecentlyUsed" value="package:com.yndongyong.vanui.test tag:DONG" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.yndongyong.vanui.test tag:DONG" />
         <option value="package:mine" />
         <option value="package:mine tag:DONG " />
         <option value="package:mine " />
@@ -22,7 +23,6 @@
         <option value="package:com.tengyun.yyn tag~:P" />
         <option value="package:mine tag:TranslationFragment$startAsrManager " />
         <option value="package:mine level:error " />
-        <option value="package:mine -tag:Doraemon -tag:yyn_network -tag~:OKPRFL_" />
       </list>
     </option>
   </component>
