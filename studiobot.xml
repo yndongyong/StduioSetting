@@ -3,6 +3,60 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1747128674253">代码中的SideBars没有显示
+fun &lt;T&gt; VanSidebar(
+    modifier: Modifier = Modifier,
+    options: List&lt;T&gt;,
+    selectedIndex: Int,
+    onSelect: (Int) -&gt; Unit,
+    item: @Composable (t: T, select: Boolean) -&gt; Unit,
+
+    ) {
+
+
+    val state = remember { SidebarState() }
+    state.selectedIndex = selectedIndex
+    state.optionsCount = options.size
+    state.onSelected = onSelect
+
+
+    val selectedIndexOffset by animateFloatAsState(state.selectedIndex.toFloat(), label = &quot;&quot;)
+
+    Layout(content = {
+        Indicator(state)
+        SideBars(state, options, item)
+    }, modifier = modifier, measurePolicy = { measurables, constraints -&gt;
+            // MEASUREMENT SCOPE
+            // 1. Measurement step
+            // Determine sizes fo components
+            // ready to measured!
+
+            val (thumbMeasurable, sideBarMeasurable) = measurables
+
+            val sideBarPlaceable = sideBarMeasurable.measure(constraints)
+
+            val optionItemHeight = sideBarPlaceable.height / options.size
+
+            val thumbPlaceable = thumbMeasurable.measure(
+                Constraints.fixed(
+                    width = sideBarPlaceable.width,
+                    height = optionItemHeight
+                )
+            )
+
+            layout(sideBarPlaceable.width, sideBarPlaceable.height) {
+                //     PLACEMENT SCOPE
+                //     Placement step
+                //     Determine positions of components
+
+
+                // Ready to be placed!
+                sideBarPlaceable.placeRelative(IntOffset.Zero)
+                thumbPlaceable.placeRelative(0, (selectedIndexOffset * optionItemHeight).toInt())
+            }
+
+        })
+}</historyEntry>
         <historyEntry timestamp="1747121021147">还是使用最开始的方案实现VanSideBar，并且内容使用Layout 实现</historyEntry>
         <historyEntry timestamp="1747117343424">参照TabRowScope修改VanSidebar组件</historyEntry>
         <historyEntry timestamp="1747116700273">阅读下面的代码，以为使用了key值，所以每次切换之后，所有的item都重新绘制了，如何做到值重新绘制得到选中的和失去选中的
