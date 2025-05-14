@@ -1,12 +1,12 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.yndongyong.vanui tag:DONG" />
+    <option name="mostRecentlyUsed" value="package:mine" />
     <option name="nonFavorites">
       <list>
-        <option value="package:com.yndongyong.vanui tag:DONG" />
-        <option value="package:com.yndongyong.vanui.test tag:DONG" />
         <option value="package:mine" />
         <option value="package:mine tag:DONG " />
+        <option value="package:com.yndongyong.vanui tag:DONG" />
+        <option value="package:com.yndongyong.vanui.test tag:DONG" />
         <option value="package:mine " />
         <option value="package:com.yndongyong.vanui.demo" />
         <option value="package:com.yndongyong.vanui.demo tag:TAG" />
