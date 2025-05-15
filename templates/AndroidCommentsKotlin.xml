@@ -19,11 +19,6 @@
       <option name="JAVA_DECLARATION" value="true" />
       <option name="JAVA_EXPRESSION" value="true" />
       <option name="JAVA_STATEMENT" value="true" />
-      <option name="KOTLIN_CLASS" value="true" />
-      <option name="KOTLIN_EXPRESSION" value="true" />
-      <option name="KOTLIN_OBJECT_DECLARATION" value="true" />
-      <option name="KOTLIN_STATEMENT" value="true" />
-      <option name="KOTLIN_TOPLEVEL" value="true" />
     </context>
   </template>
   <template name="notice" value="// NOTICE(dong): $date$ $todo$ " description="adds // NOTICE(dong) date" toReformat="true" toShortenFQNames="true">
