@@ -4,5 +4,6 @@
     <option name="PROXY_HOST" value="127.0.0.1" />
     <option name="PROXY_PORT" value="7890" />
     <option name="PROXY_AUTHENTICATION" value="true" />
+    <option name="KEEP_PROXY_PASSWORD" value="true" />
   </component>
 </application>

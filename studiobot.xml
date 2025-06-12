@@ -1,5 +1,7 @@
 <application>
   <component name="StudioBotSettings">
+    <option name="contextSharingMode" value="ALWAYS_SHARE" />
+    <option name="enableCodeCompletion" value="false" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
