@@ -257,6 +257,226 @@
                   </list>
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="visible 属性没有当做参数传递" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/dong_workspace/DialogX/DialogX/src/main/java/com/kongzue/dialogx/dialogs/PopTip.java" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/dong_workspace/DialogX/DialogX/src/main/java/com/kongzue/dialogx/dialogs/PopTip.java" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="PopTip.java" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="回答的 compose 代码有问题" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/dong_workspace/DialogX/DialogX/src/main/java/com/kongzue/dialogx/dialogs/PopTip.java" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/dong_workspace/DialogX/DialogX/src/main/java/com/kongzue/dialogx/dialogs/PopTip.java" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="PopTip.java" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="第一个PopTip 没有向下滑动进入的动画" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/dong_workspace/DialogX/DialogX/src/main/java/com/kongzue/dialogx/dialogs/PopTip.java" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/dong_workspace/DialogX/DialogX/src/main/java/com/kongzue/dialogx/dialogs/PopTip.java" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="PopTip.java" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="给出的 compose 代码，第一个 Poptips 并没有向下滑动进入的动画" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
@@ -3235,6 +3455,167 @@
                   <list>
                     <ChatInputElement>
                       <option name="text" value="分析堆叠 、避让的效果是怎么实现的&#10;public class PopTip extends BaseDialog implements NoTouchInterface {&#10;&#10;    public static final int TIME_NO_AUTO_DISMISS_DELAY = -1;&#10;    protected static List&lt;PopTip&gt; popTipList;&#10;&#10;    public static long overrideEnterDuration = -1;&#10;    public static long overrideExitDuration = -1;&#10;    public static int overrideEnterAnimRes = 0;&#10;    public static int overrideExitAnimRes = 0;&#10;    public static int maxShowCount = Integer.MAX_VALUE;&#10;    public static PopMoveDisplacementInterceptor&lt;PopTip&gt; moveDisplacementInterceptor;&#10;&#10;    protected OnBindView&lt;PopTip&gt; onBindView;&#10;    protected DialogLifecycleCallback&lt;PopTip&gt; dialogLifecycleCallback;&#10;    protected PopTip me = this;&#10;    protected DialogImpl dialogImpl;&#10;    protected int enterAnimResId = 0;&#10;    protected int exitAnimResId = 0;&#10;    protected DialogXStyle.PopTipSettings.ALIGN align;&#10;    protected OnDialogButtonClickListener&lt;PopTip&gt; onButtonClickListener;&#10;    protected OnDialogButtonClickListener&lt;PopTip&gt; onPopTipClickListener;&#10;    protected BOOLEAN tintIcon;&#10;    protected float backgroundRadius = DialogX.defaultPopTipBackgroundRadius;&#10;    protected DialogXAnimInterface&lt;PopTip&gt; dialogXAnimImpl;&#10;&#10;    protected int iconResId;&#10;    protected CharSequence message;&#10;    protected CharSequence buttonText;&#10;&#10;    protected TextInfo messageTextInfo;&#10;    protected TextInfo buttonTextInfo = new TextInfo().setBold(true);&#10;    protected int[] bodyMargin = new int[]{-1, -1, -1, -1};&#10;&#10;    protected PopTip() {&#10;        super();&#10;    }&#10;&#10;    @Override&#10;    public boolean isCancelable() {&#10;        return false;&#10;    }&#10;&#10;    public static PopTip build() {&#10;        return new PopTip();&#10;    }&#10;&#10;    public static PopTip build(DialogXStyle style) {&#10;        return new PopTip().setStyle(style);&#10;    }&#10;&#10;    public static PopTip build(OnBindView&lt;PopTip&gt; onBindView) {&#10;        return new PopTip().setCustomView(onBindView);&#10;    }&#10;&#10;    public PopTip(OnBindView&lt;PopTip&gt; onBindView) {&#10;        this.onBindView = onBindView;&#10;    }&#10;&#10;    public PopTip(CharSequence message) {&#10;        this.message = message;&#10;    }&#10;&#10;    public PopTip(int messageResId) {&#10;        this.message = getString(messageResId);&#10;    }&#10;&#10;    public static PopTip tip(String message) {&#10;        return PopTip.show(message);&#10;    }&#10;&#10;    public static PopTip tip(int messageResId) {&#10;        return PopTip.show(messageResId);&#10;    }&#10;&#10;    public static PopTip tip(String message, String buttonText) {&#10;        return PopTip.show(message, buttonText);&#10;    }&#10;&#10;    public static PopTip tip(int messageResId, int buttonTextResId) {&#10;        return PopTip.show(messageResId, buttonTextResId);&#10;    }&#10;&#10;    public static PopTip tip(int iconResId, String message) {&#10;        return PopTip.show(iconResId, message);&#10;    }&#10;&#10;    public static PopTip tip(int iconResId, String message, String buttonText) {&#10;        return PopTip.show(iconResId, message, buttonText);&#10;    }&#10;&#10;    public PopTip(int iconResId, CharSequence message) {&#10;        this.iconResId = iconResId;&#10;        this.message = message;&#10;    }&#10;&#10;    public PopTip(int iconResId, CharSequence message, CharSequence buttonText) {&#10;        this.iconResId = iconResId;&#10;        this.message = message;&#10;        this.buttonText = buttonText;&#10;    }&#10;&#10;    public PopTip(int iconResId, int messageResId, int buttonTextResId) {&#10;        this.iconResId = iconResId;&#10;        this.message = getString(messageResId);&#10;        this.buttonText = getString(buttonTextResId);&#10;    }&#10;&#10;    public PopTip(CharSequence message, CharSequence buttonText) {&#10;        this.message = message;&#10;        this.buttonText = buttonText;&#10;    }&#10;&#10;    public PopTip(int messageResId, int buttonTextResId) {&#10;        this.message = getString(messageResId);&#10;        this.buttonText = getString(buttonTextResId);&#10;    }&#10;&#10;    public PopTip(CharSequence message, OnBindView&lt;PopTip&gt; onBindView) {&#10;        this.message = message;&#10;        this.onBindView = onBindView;&#10;    }&#10;&#10;    public PopTip(int messageResId, OnBindView&lt;PopTip&gt; onBindView) {&#10;        this.message = getString(messageResId);&#10;        this.onBindView = onBindView;&#10;    }&#10;&#10;    public PopTip(int iconResId, CharSequence message, OnBindView&lt;PopTip&gt; onBindView) {&#10;        this.iconResId = iconResId;&#10;        this.message = message;&#10;        this.onBindView = onBindView;&#10;    }&#10;&#10;    public PopTip(int iconResId, CharSequence message, CharSequence buttonText, OnBindView&lt;PopTip&gt; onBindView) {&#10;        this.iconResId = iconResId;&#10;        this.message = message;&#10;        this.buttonText = buttonText;&#10;        this.onBindView = onBindView;&#10;    }&#10;&#10;    public PopTip(int iconResId, int messageResId, int buttonTextResId, OnBindView&lt;PopTip&gt; onBindView) {&#10;        this.iconResId = iconResId;&#10;        this.message = getString(messageResId);&#10;        this.buttonText = getString(buttonTextResId);&#10;        this.onBindView = onBindView;&#10;    }&#10;&#10;    public PopTip(CharSequence message, CharSequence buttonText, OnBindView&lt;PopTip&gt; onBindView) {&#10;        this.message = message;&#10;        this.buttonText = buttonText;&#10;        this.onBindView = onBindView;&#10;    }&#10;&#10;    public PopTip(int messageResId, int buttonTextResId, OnBindView&lt;PopTip&gt; onBindView) {&#10;        this.message = getString(messageResId);&#10;        this.buttonText = getString(buttonTextResId);&#10;        this.onBindView = onBindView;&#10;    }&#10;&#10;    public static PopTip show(OnBindView&lt;PopTip&gt; onBindView) {&#10;        PopTip popTip = new PopTip(onBindView);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(CharSequence message) {&#10;        PopTip popTip = new PopTip(message);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int messageResId) {&#10;        PopTip popTip = new PopTip(messageResId);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(CharSequence message, OnBindView&lt;PopTip&gt; onBindView) {&#10;        PopTip popTip = new PopTip(message, onBindView);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int messageResId, OnBindView&lt;PopTip&gt; onBindView) {&#10;        PopTip popTip = new PopTip(messageResId, onBindView);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(CharSequence message, CharSequence buttonText) {&#10;        PopTip popTip = new PopTip(message, buttonText);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int messageResId, int buttonTextResId) {&#10;        PopTip popTip = new PopTip(messageResId, buttonTextResId);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int iconResId, CharSequence message, OnBindView&lt;PopTip&gt; onBindView) {&#10;        PopTip popTip = new PopTip(iconResId, message, onBindView);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int iconResId, CharSequence message) {&#10;        PopTip popTip = new PopTip(iconResId, message);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int iconResId, CharSequence message, CharSequence buttonText) {&#10;        PopTip popTip = new PopTip(iconResId, message, buttonText);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int iconResId, CharSequence message, CharSequence buttonText, OnBindView&lt;PopTip&gt; onBindView) {&#10;        PopTip popTip = new PopTip(iconResId, message, buttonText, onBindView);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int iconResId, int messageResId, int buttonTextResId, OnBindView&lt;PopTip&gt; onBindView) {&#10;        PopTip popTip = new PopTip(iconResId, messageResId, buttonTextResId, onBindView);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(CharSequence message, CharSequence buttonText, OnBindView&lt;PopTip&gt; onBindView) {&#10;        PopTip popTip = new PopTip(message, buttonText, onBindView);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public static PopTip show(int messageResId, int buttonTextResId, OnBindView&lt;PopTip&gt; onBindView) {&#10;        PopTip popTip = new PopTip(messageResId, buttonTextResId, onBindView);&#10;        popTip.show();&#10;        return popTip;&#10;    }&#10;&#10;    public PopTip show() {&#10;        if (isHide &amp;&amp; getDialogView() != null) {&#10;            getDialogView().setVisibility(View.VISIBLE);&#10;            return this;&#10;        }&#10;        super.beforeShow();&#10;        if (getDialogView() == null) {&#10;            if (DialogX.onlyOnePopTip) {&#10;                PopTip oldInstance = null;&#10;                if (popTipList != null &amp;&amp; !popTipList.isEmpty()) {&#10;                    oldInstance = popTipList.get(popTipList.size() - 1);&#10;                }&#10;                if (oldInstance != null) {&#10;                    oldInstance.dismiss();&#10;                }&#10;            } else {&#10;                if (popTipList != null) {&#10;                    CopyOnWriteArrayList&lt;PopTip&gt; copyPopTipList = new CopyOnWriteArrayList&lt;&gt;(popTipList);&#10;                    for (int i = 0; i &lt; copyPopTipList.size(); i++) {&#10;                        PopTip popInstance = copyPopTipList.get(i);&#10;                        if (copyPopTipList.size() &lt; maxShowCount) {&#10;                            popInstance.moveBack();&#10;                        } else {&#10;                            if (i &lt;= copyPopTipList.size() - maxShowCount) {&#10;                                popInstance.dismiss();&#10;                                popTipList.remove(popInstance);&#10;                            } else {&#10;                                popInstance.moveBack();&#10;                            }&#10;                        }&#10;                    }&#10;                }&#10;            }&#10;            if (popTipList == null) popTipList = new ArrayList&lt;&gt;();&#10;            popTipList.add(PopTip.this);&#10;            int layoutResId = isLightTheme() ? R.layout.layout_dialogx_poptip_material : R.layout.layout_dialogx_poptip_material_dark;&#10;            if (style.popTipSettings() != null) {&#10;                if (style.popTipSettings().layout(isLightTheme()) != 0) {&#10;                    layoutResId = style.popTipSettings().layout(isLightTheme());&#10;                }&#10;                if (align == null) {&#10;                    if (style.popTipSettings().align() == null) {&#10;                        align = DialogXStyle.PopTipSettings.ALIGN.BOTTOM;&#10;                    } else {&#10;                        align = style.popTipSettings().align();&#10;                    }&#10;                }&#10;                int styleEnterAnimResId = style.popTipSettings().enterAnimResId(isLightTheme());&#10;                int styleExitAnimResId = style.popTipSettings().exitAnimResId(isLightTheme());&#10;                enterAnimResId = enterAnimResId == 0 ? (&#10;                        overrideEnterAnimRes == 0 ? (styleEnterAnimResId != 0 ? styleEnterAnimResId : R.anim.anim_dialogx_default_enter) : overrideEnterAnimRes&#10;                ) : enterAnimResId;&#10;                exitAnimResId = exitAnimResId == 0 ? (&#10;                        overrideExitAnimRes == 0 ? (styleExitAnimResId != 0 ? styleExitAnimResId : R.anim.anim_dialogx_default_exit) : overrideExitAnimRes&#10;                ) : exitAnimResId;&#10;                enterAnimDuration = enterAnimDuration == -1 ? (&#10;                        overrideEnterDuration&#10;                ) : enterAnimDuration;&#10;                exitAnimDuration = exitAnimDuration == -1 ? (&#10;                        overrideExitDuration&#10;                ) : exitAnimDuration;&#10;            }&#10;            View dialogView = createView(layoutResId);&#10;            dialogImpl = new DialogImpl(dialogView);&#10;            if (dialogView != null) dialogView.setTag(me);&#10;            show(dialogView);&#10;        } else {&#10;            show(getDialogView());&#10;        }&#10;        return this;&#10;    }&#10;&#10;    public PopTip show(Activity activity) {&#10;        super.beforeShow();&#10;        if (getDialogView() == null) {&#10;            if (DialogX.onlyOnePopTip) {&#10;                PopTip oldInstance = null;&#10;                if (popTipList != null &amp;&amp; !popTipList.isEmpty()) {&#10;                    oldInstance = popTipList.get(popTipList.size() - 1);&#10;                }&#10;                if (oldInstance != null) {&#10;                    oldInstance.dism" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="分析代码&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                    <ChatInputElement>
+                      <option name="tag">
+                        <ChatAskTag>
+                          <option name="displayText" value="#PagerTest.kt 101-210" />
+                          <option name="id" value="$USER_HOME$/Documents/workspace/dong_workspace/VanUI/app/src/main/java/com/yndongyong/vanui/demo/demo/PagerTest.kt#L101-L210" />
+                          <option name="text" value="PagerTest.kt" />
+                          <option name="type" value="context" />
+                        </ChatAskTag>
+                      </option>
+                      <option name="type" value="tag" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine" />
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent" />
+                          <entry key="startLine" />
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/dong_workspace/VanUI/app/src/main/java/com/yndongyong/vanui/demo/demo/PagerTest.kt" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/dong_workspace/VanUI/app/src/main/java/com/yndongyong/vanui/demo/demo/PagerTest.kt" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="text" value="PagerTest.kt" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="#selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="210" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/dong_workspace/VanUI/app/src/main/java/com/yndongyong/vanui/demo/demo/PagerTest.kt#L101-L210" />
+                      <option name="name" value="PagerTest.kt" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="statLine" value="101" />
+                      <option name="text" value="PagerTest.kt" />
+                      <option name="type" value="context" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="显示第一个PopTipItem时，增加一个从屏幕外往下 划入的效果" />
                       <option name="type" value="text" />
                     </ChatInputElement>
                   </list>
