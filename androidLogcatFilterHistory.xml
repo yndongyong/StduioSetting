@@ -4,6 +4,7 @@
     <option name="nonFavorites">
       <list>
         <option value="package:mine" />
+        <option value="package:mine tag:DEBUG" />
         <option value="package:mine tag:DONG " />
         <option value="package:com.yndongyong.vanui tag:DONG" />
         <option value="package:com.yndongyong.vanui.test tag:DONG" />
@@ -22,7 +23,6 @@
         <option value="package:com.tengyun.gov" />
         <option value="package:com.tengyun.yyn tag~:Push" />
         <option value="package:com.tengyun.yyn tag~:P" />
-        <option value="package:mine tag:TranslationFragment$startAsrManager " />
       </list>
     </option>
   </component>
