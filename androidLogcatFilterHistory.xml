@@ -1,8 +1,9 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine" />
+    <option name="mostRecentlyUsed" value="tag:PhotoManager" />
     <option name="nonFavorites">
       <list>
+        <option value="tag:PhotoManager" />
         <option value="package:mine" />
         <option value="package:mine tag:DEBUG" />
         <option value="package:mine tag:DONG " />
@@ -22,7 +23,6 @@
         <option value="package:com.tengyun.gov tag~:Push" />
         <option value="package:com.tengyun.gov" />
         <option value="package:com.tengyun.yyn tag~:Push" />
-        <option value="package:com.tengyun.yyn tag~:P" />
       </list>
     </option>
   </component>
