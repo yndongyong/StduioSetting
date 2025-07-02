@@ -6,6 +6,7 @@
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/DialogX-chat" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/Dompet.flutter-chat" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/HATEST-chat" value="default" />
+        <entry key="$USER_HOME$/Documents/workspace/dong_workspace/LightsDevKits-chat" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/Once-chat" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/VanUI-chat" value="dashscope_qwen_max_latest" />
         <entry key="chat" value="default" />
@@ -1777,6 +1778,97 @@
                       <option name="type" value="file" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="使用 Kotlin 以及和jetpack datastore 实现一个有相同功能的库，提供大致的框架就行，不用给出每个类太细节的代码，我们之后再慢慢完善" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="先写 Storage.kt 的完整代码&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="runBlocking 是线程安全的么" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="如果需要在 UI 线程中调用 Once 中的方法，应该怎么处理呢" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="加上 flow支持" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="OnceStorage内部还是使用 sharedpreference 实现" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="更具 once 库的作用，给项目取一个更加贴合的项目名字" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
