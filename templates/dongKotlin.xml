@@ -34,7 +34,7 @@
       <option name="KOTLIN_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="logc" value="android.util.Log.e(&quot;DONG&quot;,&quot;🚀 ~ $METHOD_NAME$ ~ $content$: ${$content$}&quot;)" description="Log.e(&quot;DONG&quot;, CLIPBOARD content)" toReformat="true" toShortenFQNames="true">
+  <template name="logc" value="android.util.Log.d(&quot;DONG&quot;,&quot;🚀 ~ $METHOD_NAME$ ~ $content$: ${$content$}&quot;)" description="Log.e(&quot;DONG&quot;, CLIPBOARD content)" toReformat="true" toShortenFQNames="true">
     <variable name="METHOD_NAME" expression="kotlinFunctionName()" defaultValue="" alwaysStopAt="true" />
     <variable name="content" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
     <context>
