@@ -2,7 +2,7 @@
   <component name="CosySettings">
     <option name="chatModeSelected">
       <map>
-        <entry key="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid" value="edit" />
+        <entry key="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid" value="chat" />
       </map>
     </option>
     <option name="chatModelSelected">
@@ -2801,6 +2801,19 @@
                       <option name="type" value="file" />
                     </ChatContextTag>
                   </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="android studio 清理未在 Androidmanifest 中注册的 activity，以及和 未注册 activity 相关的 layout 和 icon 等资源，有什么现成的方法么&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
                 </option>
               </ChatRecentQuery>
             </list>
