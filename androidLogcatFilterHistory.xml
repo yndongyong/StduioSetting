@@ -1,8 +1,11 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
+        <option value="package:com.tengyun.yyn -tag:System.err -" />
+        <option value="package:com.tengyun.yyn " />
         <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.yyn tag:DONG" />
@@ -20,9 +23,6 @@
         <option value="package:com.tengyun.gov tag:PhotoManager" />
         <option value="package:com.tengyun.gov TAG:PhotoManager" />
         <option value="package:com.tengyun.intl.yyn -tag:MapLib2" />
-        <option value="package:cn.idesign.cui tag:MainActivity" />
-        <option value="package:com.tengyun.gov tag~:Push" />
-        <option value="package:com.tengyun.gov" />
       </list>
     </option>
   </component>

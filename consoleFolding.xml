@@ -6,6 +6,7 @@
         <option value="2023-10-12 14:17:10.061 VivoConfigStore       E  key:vivo.software.romstyle isCached is true and value is true" />
         <option value="getContentViewInvisibleHeight" />
         <option value="key:vivo.software.romstyle isCached is true and value is true" />
+        <option value="2025-07-16 15:24:03.695 System.err            W  java.lang.NullPointerException: Attempt to get length of null array" />
       </list>
     </option>
   </component>
