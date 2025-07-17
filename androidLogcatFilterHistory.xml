@@ -1,10 +1,14 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine level:error " />
+    <option name="favorites">
+      <list>
+        <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
+      </list>
+    </option>
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
     <option name="nonFavorites">
       <list>
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine level:error " />
-        <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
         <option value="package:com.tengyun.yyn -tag:System.err -" />
         <option value="package:com.tengyun.yyn " />
         <option value="package:com.tengyun.yyn" />
