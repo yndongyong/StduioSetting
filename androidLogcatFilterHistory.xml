@@ -9,6 +9,8 @@
     <option name="nonFavorites">
       <list>
         <option value="package:com.tengyun.yyn" />
+        <option value="package:com.tengyun.yyn " />
+        <option value="package:com.tengyun.yyn tag:WM" />
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine tag:VM" />
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine tag:WM" />
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine -tag:WorkStatus" />
@@ -16,7 +18,6 @@
         <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine level:error " />
         <option value="package:com.tengyun.yyn -tag:System.err -" />
-        <option value="package:com.tengyun.yyn " />
         <option value="tag:PhotoManager" />
         <option value="package:mine" />
         <option value="package:mine tag:DEBUG" />
@@ -27,7 +28,6 @@
         <option value="package:com.yndongyong.vanui.demo" />
         <option value="package:com.yndongyong.vanui.demo tag:TAG" />
         <option value="package:com.tengyun.yyn -tag=:TPush " />
-        <option value="package:com.tengyun.yyn tag:chromium" />
       </list>
     </option>
   </component>
