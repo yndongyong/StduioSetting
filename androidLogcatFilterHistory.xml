@@ -5,15 +5,18 @@
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn tag:DONG" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.yyn" />
+        <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine tag:VM" />
+        <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine tag:WM" />
+        <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine -tag:WorkStatus" />
         <option value="package:com.tengyun.yyn tag:DONG" />
         <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine level:error " />
         <option value="package:com.tengyun.yyn -tag:System.err -" />
         <option value="package:com.tengyun.yyn " />
-        <option value="package:com.tengyun.yyn" />
         <option value="tag:PhotoManager" />
         <option value="package:mine" />
         <option value="package:mine tag:DEBUG" />
@@ -25,8 +28,6 @@
         <option value="package:com.yndongyong.vanui.demo tag:TAG" />
         <option value="package:com.tengyun.yyn -tag=:TPush " />
         <option value="package:com.tengyun.yyn tag:chromium" />
-        <option value="package:com.tengyun.gov tag:PhotoManager" />
-        <option value="package:com.tengyun.gov TAG:PhotoManager" />
       </list>
     </option>
   </component>
