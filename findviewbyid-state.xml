@@ -1,6 +1,5 @@
 <application>
   <component name="GlobalState">
-    <option name="camelCasePersist" value="false" />
     <option name="privatePersist" value="true" />
   </component>
 </application>
