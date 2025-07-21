@@ -5,11 +5,12 @@
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn level:error " />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
     <option name="nonFavorites">
       <list>
-        <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.yyn" />
+        <option value="package:com.yntengyun.vanui.test" />
+        <option value="package:com.tengyun.yyn level:error " />
         <option value="package:com.tengyun.yyn " />
         <option value="package:com.tengyun.yyn tag:WM" />
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine tag:VM" />
@@ -27,7 +28,6 @@
         <option value="package:mine " />
         <option value="package:com.yndongyong.vanui.demo" />
         <option value="package:com.yndongyong.vanui.demo tag:TAG" />
-        <option value="package:com.tengyun.yyn -tag=:TPush " />
       </list>
     </option>
   </component>
