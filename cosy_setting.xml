@@ -1674,6 +1674,32 @@
                   </list>
                 </option>
               </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Unexpected classifier: &quot;###&quot;, expected either &quot;Module&quot; or &quot;Package&quot;.&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="Execution failed for task ':viewbinding-ktx:dokkaHtml'.&#10;&gt; Unexpected classifier: &quot;###&quot;, expected either &quot;Module&quot; or &quot;Package&quot;. &#10;  For more information consult the specification: https://kotlinlang.org/docs/dokka-module-and-package-docs.html&#10;" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
             </list>
           </value>
         </entry>
