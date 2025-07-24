@@ -5,9 +5,10 @@
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
+        <option value="package:com.yndongyong.paging3demo" />
         <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.yyn " />
         <option value="package:com.tengyun.yyn tag:DONG" />
@@ -25,9 +26,7 @@
         <option value="package:mine tag:DONG " />
         <option value="package:com.yndongyong.vanui tag:DONG" />
         <option value="package:com.yndongyong.vanui.test tag:DONG" />
-        <option value="package:mine " />
         <option value="package:com.yndongyong.vanui.demo" />
-        <option value="package:com.yndongyong.vanui.demo tag:TAG" />
       </list>
     </option>
   </component>

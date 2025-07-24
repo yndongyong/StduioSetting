@@ -8,14 +8,15 @@
     <option name="chatModelSelected">
       <map>
         <entry key="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid-assistant" value="default" />
-        <entry key="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid-chat" value="default" />
+        <entry key="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid-chat" value="dashscope_qwen3_coder_default" />
         <entry key="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid-developer" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid-inline" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/android_workspace/TravelIntlAndroid-chat" value="default" />
+        <entry key="$USER_HOME$/Documents/workspace/code_workspace/android_drawable_helper-chat" value="dashscope_qwen3_coder_default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/DialogX-chat" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/Dompet.flutter-chat" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/HATEST-chat" value="default" />
-        <entry key="$USER_HOME$/Documents/workspace/dong_workspace/LightsDevKits-chat" value="default" />
+        <entry key="$USER_HOME$/Documents/workspace/dong_workspace/LightsDevKits-chat" value="dashscope_qwen3_coder_default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/Once-chat" value="default" />
         <entry key="$USER_HOME$/Documents/workspace/dong_workspace/VanUI-chat" value="dashscope_qwen_max_latest" />
         <entry key="chat" value="default" />
