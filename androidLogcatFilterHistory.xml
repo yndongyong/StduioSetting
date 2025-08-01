@@ -9,8 +9,8 @@
     <option name="nonFavorites">
       <list>
         <option value="package:com.tengyun.yyn" />
-        <option value="package:com.tengyun.yyn tag:yyn_network " />
         <option value="package:com.tengyun.yyn tag:yyn_network" />
+        <option value="package:com.tengyun.yyn tag:yyn_network " />
         <option value="package:mine " />
         <option value="package:com.yndongyong.paging3demo" />
         <option value="package:com.tengyun.yyn " />
