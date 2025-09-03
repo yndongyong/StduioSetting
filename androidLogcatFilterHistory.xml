@@ -5,12 +5,12 @@
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:mine tag:OKPRFL" />
+    <option name="mostRecentlyUsed" value="package:mine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine" />
         <option value="package:mine tag:OKPRFL" />
         <option value="package:mine tag=:OKPRFL*" />
-        <option value="package:mine" />
         <option value="package:mine level:error " />
         <option value="package:mine tag:yyn_network" />
         <option value="package:mine " />
