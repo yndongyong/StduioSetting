@@ -5,9 +5,10 @@
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn.debug -tag:OKPRFL_" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn -tag:System.err -tag:libMapEngine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.intl.yyn.debug" />
         <option value="package:com.tengyun.intl.yyn.debug -tag:OKPRFL_" />
         <option value="package:com.tengyun.intl.yyn -tag:System.err -tag:libMapEngine" />
         <option value="package:com.tengyun.intl.yyn -tag:System.err " />
@@ -27,7 +28,6 @@
         <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.yyn tag:yyn_network" />
         <option value="package:com.tengyun.yyn tag:yyn_network " />
-        <option value="package:com.yndongyong.paging3demo" />
       </list>
     </option>
   </component>
