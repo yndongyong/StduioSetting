@@ -5,9 +5,10 @@
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.intl.yyn.debug -tag:libMapEngine -tag:System.err" />
+    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn" />
     <option name="nonFavorites">
       <list>
+        <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.intl.yyn.debug -tag:libMapEngine -tag:System.err" />
         <option value="package:com.tengyun.intl.yyn.debug -tag:libMapEngine" />
         <option value="package:com.tengyun.intl.yyn.debug" />
@@ -27,7 +28,6 @@
         <option value="package:mine tag:yyn_network" />
         <option value="package:com.tengyun.yyn tag:MediaPlayer" />
         <option value="package:mine tag:chromium" />
-        <option value="package:com.tengyun.yyn" />
       </list>
     </option>
   </component>
