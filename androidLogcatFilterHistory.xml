@@ -5,9 +5,9 @@
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.tengyun.yyn  tag:yyn_network " />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:com.tengyun.yyn  tag:yyn_network " />
         <option value="package:com.tengyun.yyn  level:error " />
         <option value="package:com.tengyun.yyn " />
@@ -23,7 +23,6 @@
         <option value="package:com.tengyun.intl.yyn -tag:OKPRFL" />
         <option value="package:com.tengyun.intl.yyn -tag:OKHTTP" />
         <option value="package:com.tengyun.intl.yyn -tag:OKPRFL_" />
-        <option value="package:mine " />
         <option value="package:mine tag:OKPRFL_1dzhsl2" />
         <option value="package:mine" />
         <option value="package:mine tag:OKPRFL" />
