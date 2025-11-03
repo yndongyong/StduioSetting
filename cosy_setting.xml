@@ -2630,19 +2630,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="idea plugin 开发，AndroidLogcatService.getInstance() 过时了" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list />
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="打卡点名称没有显示完全&#10;" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -3509,6 +3496,19 @@
                   <list>
                     <ChatInputElement>
                       <option name="text" value="使用 plugins 的方式导入 sentry" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="或者降级 sentry" />
                       <option name="type" value="text" />
                     </ChatInputElement>
                   </list>
