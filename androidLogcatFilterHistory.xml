@@ -9,10 +9,13 @@
     <option name="nonFavorites">
       <list>
         <option value="package:com.yntengyun.yyn.carerun" />
+        <option value="package:com.yntengyun.yyn.carerun level:error " />
         <option value="package:mine" />
+        <option value="package:mine -tag:skia" />
+        <option value="package:mine " />
+        <option value="package:com.yntengyun.yyn.carerun tag:DONG " />
         <option value="package:mine tag:DONG" />
         <option value="package:mine level:error " />
-        <option value="package:mine " />
         <option value="package:com.tengyun.yyn" />
         <option value="package:com.tengyun.yyn tag:OKPRFL_" />
         <option value="package:com.tengyun.yyn  tag:yyn_network " />
@@ -25,9 +28,6 @@
         <option value="package:com.tengyun.intl.yyn.debug -tag:OKPRFL_" />
         <option value="package:com.tengyun.intl.yyn -tag:System.err -tag:libMapEngine" />
         <option value="package:com.tengyun.intl.yyn -tag:System.err " />
-        <option value="package:com.tengyun.intl.yyn" />
-        <option value="package:com.tengyun.intl.yyn -tag:OKPRFL" />
-        <option value="package:com.tengyun.intl.yyn -tag:OKHTTP" />
       </list>
     </option>
   </component>
