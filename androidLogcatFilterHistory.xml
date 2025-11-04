@@ -5,14 +5,13 @@
         <option value="package:com.tengyun.yyn -tag:System.err -tag:libMapEngine" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.yntengyun.yyn.carerun" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine " />
         <option value="package:com.yntengyun.yyn.carerun" />
         <option value="package:com.yntengyun.yyn.carerun level:error " />
         <option value="package:mine" />
         <option value="package:mine -tag:skia" />
-        <option value="package:mine " />
         <option value="package:com.yntengyun.yyn.carerun tag:DONG " />
         <option value="package:mine tag:DONG" />
         <option value="package:mine level:error " />
