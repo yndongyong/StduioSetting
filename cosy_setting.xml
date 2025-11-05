@@ -2630,320 +2630,6 @@
                 <option name="chatInputElements">
                   <list>
                     <ChatInputElement>
-                      <option name="text" value="实际上没有生产 BuildConfig" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="selectedCode" />
-                          <option name="drillDownEnable" value="false" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="selectedCode" />
-                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="@selectedCode" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="endLine" value="11" />
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="startLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/foundation/build.gradle.kts#L6-L11" />
-                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/foundation/build.gradle.kts#L6-L11" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="sourceType" value="system" />
-                      <option name="statLine" value="6" />
-                      <option name="text" value="build.gradle.kts" />
-                      <option name="type" value="currentFile" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="agp 7.4.2 不生效&#10;" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                    <ChatInputElement>
-                      <option name="tag">
-                        <ChatAskTag>
-                          <option name="displayText" value="@build.gradle.kts 6-11" />
-                          <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/foundation/build.gradle.kts#L6-L11" />
-                          <option name="text" value="build.gradle.kts" />
-                          <option name="type" value="context" />
-                        </ChatAskTag>
-                      </option>
-                      <option name="type" value="tag" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="selectedCode" />
-                          <option name="drillDownEnable" value="false" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="selectedCode" />
-                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="@selectedCode" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="endLine" value="11" />
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="startLine">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                        </map>
-                      </option>
-                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/foundation/build.gradle.kts#L6-L11" />
-                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/foundation/build.gradle.kts#L6-L11" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="statLine" value="6" />
-                      <option name="text" value="build.gradle.kts" />
-                      <option name="type" value="file" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="agp 7.4.2 可以用的gradle 版本" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="file" />
-                          <option name="drillDownEnable" value="true" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="file" />
-                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="@file" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine" />
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent" />
-                          <entry key="startLine" />
-                        </map>
-                      </option>
-                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/vanui/build.gradle.kts" />
-                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/vanui/build.gradle.kts" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="sourceType" value="system" />
-                      <option name="text" value="build.gradle.kts" />
-                      <option name="type" value="currentFile" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
-                      <option name="text" value="foundation 模块没有生产 BuildConfig 类" />
-                      <option name="type" value="text" />
-                    </ChatInputElement>
-                  </list>
-                </option>
-                <option name="contextTags">
-                  <list>
-                    <ChatContextTag>
-                      <option name="componentType" value="comboBox" />
-                      <option name="contextProvider">
-                        <SuggestPrompt>
-                          <option name="componentType" value="comboBox" />
-                          <option name="contextName" value="file" />
-                          <option name="drillDownEnable" value="true" />
-                          <option name="enabled" value="true" />
-                          <option name="extra">
-                            <map>
-                              <entry key="contextType">
-                                <value>
-                                  <Object />
-                                </value>
-                              </entry>
-                            </map>
-                          </option>
-                          <option name="hint" value="file" />
-                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
-                          <option name="sourceType" value="system" />
-                          <option name="text" value="@file" />
-                          <option name="type" value="context" />
-                        </SuggestPrompt>
-                      </option>
-                      <option name="extra">
-                        <map>
-                          <entry key="contextType">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="endLine" />
-                          <entry key="fileName">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="filePath">
-                            <value>
-                              <Object />
-                            </value>
-                          </entry>
-                          <entry key="selectedItemContent" />
-                          <entry key="startLine" />
-                        </map>
-                      </option>
-                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/foundation/src/main/java/com/tengyun/yyn/network/HttpInitHelper.kt" />
-                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/core/foundation/src/main/java/com/tengyun/yyn/network/HttpInitHelper.kt" />
-                      <option name="payload">
-                        <Object />
-                      </option>
-                      <option name="sourceType" value="system" />
-                      <option name="text" value="HttpInitHelper.kt" />
-                      <option name="type" value="currentFile" />
-                    </ChatContextTag>
-                  </list>
-                </option>
-              </ChatRecentQuery>
-              <ChatRecentQuery>
-                <option name="chatInputElements">
-                  <list>
-                    <ChatInputElement>
                       <option name="text" value="AppCompatActivity 如何设置全屏" />
                       <option name="type" value="text" />
                     </ChatInputElement>
@@ -3728,6 +3414,222 @@
                 </option>
                 <option name="contextTags">
                   <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="检查一下，没有触发系统的权限弹框" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="@file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/feature/care/src/main/java/com/yntengyun/yyn/care/widgets/permissions.kt" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/feature/care/src/main/java/com/yntengyun/yyn/care/widgets/permissions.kt" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="permissions.kt" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="清空上下文" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list />
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="检查一下，没有触发系统的权限弹框" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="file" />
+                          <option name="drillDownEnable" value="true" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="file" />
+                          <option name="id" value="7a0c2792-b1ed-49ec-a82b-d97b16a242b4" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="@file" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/feature/care/src/main/java/com/yntengyun/yyn/care/widgets/permissions.kt" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/feature/care/src/main/java/com/yntengyun/yyn/care/widgets/permissions.kt" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="text" value="permissions.kt" />
+                      <option name="type" value="file" />
+                    </ChatContextTag>
+                  </list>
+                </option>
+              </ChatRecentQuery>
+              <ChatRecentQuery>
+                <option name="chatInputElements">
+                  <list>
+                    <ChatInputElement>
+                      <option name="text" value="launchRequest没有监听到数据" />
+                      <option name="type" value="text" />
+                    </ChatInputElement>
+                  </list>
+                </option>
+                <option name="contextTags">
+                  <list>
+                    <ChatContextTag>
+                      <option name="componentType" value="comboBox" />
+                      <option name="contextProvider">
+                        <SuggestPrompt>
+                          <option name="componentType" value="comboBox" />
+                          <option name="contextName" value="selectedCode" />
+                          <option name="drillDownEnable" value="false" />
+                          <option name="enabled" value="true" />
+                          <option name="extra">
+                            <map>
+                              <entry key="contextType">
+                                <value>
+                                  <Object />
+                                </value>
+                              </entry>
+                            </map>
+                          </option>
+                          <option name="hint" value="selectedCode" />
+                          <option name="id" value="858b986a-9b02-4d41-87ef-c7b6b92b44d7" />
+                          <option name="sourceType" value="system" />
+                          <option name="text" value="@selectedCode" />
+                          <option name="type" value="context" />
+                        </SuggestPrompt>
+                      </option>
+                      <option name="endLine" value="229" />
+                      <option name="extra">
+                        <map>
+                          <entry key="contextType">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="endLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="fileName">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="filePath">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="selectedItemContent">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                          <entry key="startLine">
+                            <value>
+                              <Object />
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="id" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/feature/care/src/main/java/com/yntengyun/yyn/care/widgets/permissions.kt#L229-L229" />
+                      <option name="name" value="$USER_HOME$/Documents/workspace/android_workspace/TravelAndroid/feature/care/src/main/java/com/yntengyun/yyn/care/widgets/permissions.kt#L229-L229" />
+                      <option name="payload">
+                        <Object />
+                      </option>
+                      <option name="sourceType" value="system" />
+                      <option name="statLine" value="229" />
+                      <option name="text" value="permissions.kt" />
+                      <option name="type" value="currentFile" />
+                    </ChatContextTag>
+                  </list>
                 </option>
               </ChatRecentQuery>
             </list>
